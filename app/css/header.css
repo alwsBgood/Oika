@@ -4,6 +4,9 @@ body {
   color: #fff;
   background-color: #05c772; }
 
+.main_wrap {
+  overflow: hidden; }
+
 .text--title {
   font-family: "RFKrabuler-Regular", sans-serif; }
 

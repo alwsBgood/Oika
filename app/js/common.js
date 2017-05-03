@@ -218,6 +218,13 @@ $('.slider_05').slick({
   verticalSwiping: true
 });
 
+$('.slider_11').slick({
+  slidesToShow: 1,
+  dots: true,
+  arrows: false,
+  slidesToScroll: 1
+});
+
 
 // Perfect Pxel
 
