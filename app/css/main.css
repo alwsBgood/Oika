@@ -1,6 +1,29 @@
 @import url(gallery.css);
 @import url(../libs/niftymodal/component.css);
 @import url(../libs/slick/slick.min.css);
+#sec_02, #sec_13 {
+  position: relative;
+  background-image: url(../img/sec_02-bg.png); }
+  #sec_02 .header, #sec_13 .header {
+    margin-bottom: 25px; }
+  #sec_02 form, #sec_13 form {
+    position: relative;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%; }
+    #sec_02 form .field, #sec_13 form .field {
+      display: block;
+      margin: 0 auto; }
+    #sec_02 form .field + .field, #sec_13 form .field + .field {
+      margin-top: 15px; }
+    #sec_02 form .btn, #sec_13 form .btn {
+      margin-top: 35px; }
+  #sec_02 [class*='cloud-'], #sec_13 [class*='cloud-'] {
+    position: absolute;
+    -webkit-animation: clouds_move 50s infinite linear;
+    animation: clouds_move 50s infinite linear; }
+
 #sec_02 {
   padding: 200px 0 100px;
   background-repeat: no-repeat;
@@ -42,29 +65,6 @@
     z-index: 2;
     -webkit-animation-delay: -30.8s;
     animation-delay: -30.8s; }
-
-#sec_02, #sec_13 {
-  position: relative;
-  background-image: url(../img/sec_02-bg.png); }
-  #sec_02 .header, #sec_13 .header {
-    margin-bottom: 25px; }
-  #sec_02 form, #sec_13 form {
-    position: relative;
-    z-index: 2;
-    background-repeat: no-repeat;
-    background-position: top center;
-    width: 100%; }
-    #sec_02 form .field, #sec_13 form .field {
-      display: block;
-      margin: 0 auto; }
-    #sec_02 form .field + .field, #sec_13 form .field + .field {
-      margin-top: 15px; }
-    #sec_02 form .btn, #sec_13 form .btn {
-      margin-top: 35px; }
-  #sec_02 [class*='cloud-'], #sec_13 [class*='cloud-'] {
-    position: absolute;
-    -webkit-animation: clouds_move 50s infinite linear;
-    animation: clouds_move 50s infinite linear; }
 
 @-webkit-keyframes clouds_move {
   0% {
@@ -141,7 +141,9 @@
   #sec_03 .slick-dots {
     text-align: left;
     padding-left: 50px;
-    bottom: -90px; }
+    bottom: 0px; }
+  #sec_03 .sec_03-slider {
+    padding-bottom: 90px; }
 
 #sec_04 {
   background-repeat: no-repeat;
@@ -271,6 +273,8 @@
 
 #sec_07 {
   padding: 50px 0 100px; }
+  #sec_07 .mobile {
+    display: none; }
   #sec_07 .header_main {
     margin-bottom: 60px; }
   #sec_07 .item_row {
@@ -426,7 +430,7 @@
     padding: 90px 0 0; }
   #sec_11 .dialog {
     min-width: 555px;
-    height: 219px;
+    min-height: 219px;
     padding: 0 70px 0 90px;
     background-repeat: no-repeat;
     background-position: top center;
@@ -534,6 +538,8 @@
     margin-top: -110px; }
     #sec_12 .item-6 .step_number {
       margin-bottom: -30px; }
+  #sec_12 .slider_12_mobile {
+    display: none; }
 
 #sec_13 {
   padding: 125px 0 100px;
@@ -547,7 +553,7 @@
   #sec_13 .cloud-1 {
     bottom: 600px;
     left: 186px;
-    z-index: 3;
+    z-index: 1;
     -webkit-animation-delay: -10s;
     animation-delay: -10s; }
   #sec_13 .cloud-2 {
@@ -661,10 +667,15 @@ footer {
     footer .politics a + a {
       margin-left: 10px; }
   footer .logo_rezart {
-    margin-top: 5px;
     margin-left: 25px;
-    width: 80px;
+    width: 55px;
     float: right; }
+    footer .logo_rezart svg {
+      fill: #fff;
+      -webkit-transition: fill .3s;
+      transition: fill .3s; }
+    footer .logo_rezart:hover svg {
+      fill: #ff2a56; }
 
 /* ================================*/
 /* CURSOR STYLES*/
@@ -938,18 +949,425 @@ div[id*="modal_politics"] {
   outline: none; }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  #sec_02 .cloud-5 {
+    display: none; }
   footer .politics a {
-    font-size: 13px; } }
+    font-size: 13px; }
+  #sec_04 {
+    margin-top: -200px; }
+    #sec_04 .ytwrap:before {
+      display: none; }
+    #sec_04 .ytwrap {
+      width: 720px;
+      -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+      #sec_04 .ytwrap .youtube {
+        width: 720px; }
+  #sec_05 .col-9, #sec_05 .col-6.col-offset-1, #sec_05 .slider_col {
+    margin-left: 0;
+    width: 100%; }
+  #sec_05 .text br {
+    display: none; }
+  #sec_05 img {
+    width: 100%; }
+  #sec_05 .header {
+    margin-right: -60px;
+    font-size: 46px; }
+  #sec_05 .baloon-1, #sec_05 .baloon-2 {
+    display: none; }
+  #sec_05 .item_big {
+    margin-left: 0px; }
+    #sec_05 .item_big br {
+      display: none; }
+  #sec_05 .sec_img-1 {
+    display: none; }
+  #sec_05 .sec_img-2 {
+    margin-top: -30px; }
+  #sec_05 .slider_05 {
+    max-width: 458px;
+    margin: 0 auto; }
+  #sec_05 .col-xs {
+    width: 50%; }
+  #sec_06 {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(../img/sec_06-bg-1200.png);
+    margin-top: -100px;
+    padding-top: 200px;
+    padding-bottom: 200px; }
+  #sec_07 .header {
+    margin-bottom: 40px; }
+  #sec_07 .item_row {
+    padding-bottom: 60px; }
+    #sec_07 .item_row img {
+      display: none; }
+    #sec_07 .item_row .col-5 {
+      width: 100%; }
+    #sec_07 .item_row .col-3, #sec_07 .item_row .col-4 {
+      width: 50%; }
+  #sec_07 .item_row_last .item {
+    margin: 45px 10px 0 0; }
+  #sec_07 .btn {
+    margin-left: 165px; }
+  #sec_07 .list_item {
+    padding-left: 40px; }
+  #sec_08 .header {
+    font-size: 42px;
+    margin-bottom: 100px; }
+    #sec_08 .header br {
+      display: none; }
+  #sec_08 img {
+    width: 100%; }
+  #sec_08 .text {
+    margin-right: -415px; }
+    #sec_08 .text br {
+      display: none; }
+  #sec_09 .header {
+    margin-bottom: 50px; }
+    #sec_09 .header br {
+      display: none; }
+  #sec_09 .header:before {
+    display: none; }
+  #sec_09 form {
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 480px;
+    padding-top: 420px;
+    background-image: url(../img/sec_09-bln-1-xs.png);
+    width: 100%; }
+  #sec_09 .item {
+    float: none;
+    margin: 0px auto 0;
+    width: 545px;
+    padding: 0;
+    background: none; }
+    #sec_09 .item .title_header {
+      float: left;
+      text-align: left;
+      margin-top: 20px; }
+    #sec_09 .item .counter {
+      float: right; }
+  #sec_10 {
+    margin-top: 0;
+    padding-top: 420px; }
+    #sec_10 br {
+      display: none; }
+  #sec_11 .slider_11 .col-6 {
+    width: 100%; }
+  #sec_11 .slider_11 img {
+    width: 100%;
+    max-width: 556px;
+    margin: 0 auto 40px; }
+  #sec_11 .dialog {
+    min-width: 100%;
+    background: none;
+    min-height: 120px; }
+  #sec_12 {
+    background-size: 100% 100%;
+    padding-top: 350px;
+    margin-top: -100px; }
+    #sec_12 br {
+      display: none; }
+    #sec_12 [class*='item-'] {
+      display: none; }
+    #sec_12 .slider_12_mobile {
+      display: block; }
+    #sec_12 .col-6 {
+      width: 100%; }
+    #sec_12 .description {
+      margin-bottom: 90px; }
+  #sec_13 .cloud-6 {
+    display: none; }
+  footer .politics {
+    margin-top: 10px; }
+    footer .politics a {
+      font-size: 17px; } }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #sec_03 .header {
+    margin-right: -75px; }
+  #sec_04 {
+    padding-top: 460px; }
+    #sec_04 .ytwrap:before {
+      left: -100px; }
+  #sec_05 .col-6.col-offset-1, #sec_05 .slider_col {
+    margin-left: 0;
+    width: 50%; }
+  #sec_05 .text br {
+    display: none; }
+  #sec_05 img {
+    width: 100%; }
+  #sec_05 .header {
+    margin-right: -60px;
+    font-size: 46px; }
+  #sec_05 .baloon-1 {
+    margin-bottom: -40px; }
+  #sec_05 .baloon-2 {
+    margin-left: 0px;
+    margin-top: 50px; }
+  #sec_05 .item_big {
+    margin-left: 45px; }
+    #sec_05 .item_big br {
+      display: none; }
+  #sec_05 .sec_img-1 {
+    margin-top: 0; }
+  #sec_06 {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(../img/sec_06-bg-1200.png);
+    margin-top: -100px;
+    padding-top: 200px;
+    padding-bottom: 200px; }
+  #sec_07 .list_item {
+    font-size: 16px; }
+    #sec_07 .list_item li + li {
+      margin-top: 16px; }
+  #sec_07 .btn {
+    margin-top: 30px; }
+  #sec_07 .item_row img {
+    width: 100%; }
+  #sec_07 .item_row .header {
+    margin-bottom: 90px; }
+  #sec_07 .second_row .header {
+    margin-bottom: 50px; }
+  #sec_07 .item_row_last .item {
+    margin: 45px 65px 0 0; }
+  #sec_08 .header {
+    font-size: 44px; }
+    #sec_08 .header br {
+      display: none; }
+  #sec_08 img {
+    width: 100%; }
+  #sec_09 .header {
+    margin-bottom: 50px; }
+  #sec_09 .header:before {
+    display: none; }
+  #sec_09 form {
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 480px;
+    padding-top: 420px;
+    background-image: url(../img/sec_09-bln-1-xs.png);
+    width: 100%; }
+  #sec_09 .item {
+    float: none;
+    margin: 0px auto 0;
+    width: 545px;
+    padding: 0;
+    background: none; }
+    #sec_09 .item .title_header {
+      float: left;
+      text-align: left;
+      margin-top: 20px; }
+    #sec_09 .item .counter {
+      float: right; }
+  #sec_10 {
+    margin-top: 0; }
+  #sec_11 .slider_11 img {
+    width: 100%;
+    margin-top: 18px; }
+  #sec_11 .dialog {
+    min-width: 100%;
+    background: none;
+    border: 1px dashed #fff;
+    -webkit-border-radius: 20px;
+    border-radius: 20px; }
+  #sec_12 {
+    background-size: auto 100%; }
+    #sec_12 br {
+      display: none; }
+    #sec_12 .item-1:before {
+      display: none; }
+  #sec_13 .cloud-1 {
+    left: 106px; }
+  #sec_13 .cloud-3 {
+    right: 40px; } }
 
 @media screen and (max-height: 760px) {
   .md_large .md_content {
     max-height: 320px; } }
 
 @media (max-width: 767px) {
+  .header {
+    font-size: 40px; }
+    .header br {
+      display: none; }
+  #sec_02 {
+    margin: 0 -40px 0 -30px; }
+    #sec_02 .cloud-5 {
+      display: none; }
+  #sec_03 .sec_img {
+    display: none; }
+  footer .politics a {
+    font-size: 13px; }
+  #sec_04 {
+    margin-top: -200px;
+    padding-bottom: 265px; }
+    #sec_04 .ytwrap:before {
+      display: none; }
+    #sec_04 .ytwrap {
+      width: 470px;
+      -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      height: 264px; }
+      #sec_04 .ytwrap .youtube {
+        width: 470px;
+        background-size: contain;
+        height: 264px; }
+  #sec_05 {
+    margin-top: -150px; }
+    #sec_05 .col-9, #sec_05 .col-6.col-offset-1, #sec_05 .slider_col {
+      margin-left: 0;
+      width: 100%; }
+    #sec_05 .text br {
+      display: none; }
+    #sec_05 img {
+      width: 100%; }
+    #sec_05 .header {
+      margin-right: -60px;
+      font-size: 46px; }
+    #sec_05 .baloon-1, #sec_05 .baloon-2 {
+      display: none; }
+    #sec_05 .item_big {
+      margin-left: 0px; }
+      #sec_05 .item_big br {
+        display: none; }
+    #sec_05 .sec_img-1 {
+      display: none; }
+    #sec_05 .sec_img-2 {
+      margin-top: -30px; }
+    #sec_05 .slider_05 {
+      max-width: 458px;
+      margin: 0 auto; }
+    #sec_05 .col-xs {
+      width: 50%; }
+    #sec_05 .item--margined {
+      margin-left: 0; }
+  #sec_06 {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(../img/sec_06-bg-1200.png);
+    margin-top: -100px;
+    padding-top: 200px;
+    padding-bottom: 200px; }
+  #sec_07 .header {
+    margin-bottom: 40px; }
+  #sec_07 .item_row {
+    padding-bottom: 60px;
+    position: relative; }
+    #sec_07 .item_row img {
+      display: none; }
+    #sec_07 .item_row .col-5 {
+      width: 100%; }
+    #sec_07 .item_row .col-3, #sec_07 .item_row .col-4 {
+      width: 50%; }
+  #sec_07 .item_row_last {
+    background: #fff;
+    padding: 40px 0 60px;
+    min-height: auto; }
+    #sec_07 .item_row_last .item {
+      margin: 0px auto;
+      float: none; }
+  #sec_07 .btn {
+    margin: 40px auto 0;
+    display: none; }
+  #sec_07 .mobile, #sec_07 .btn.mobile {
+    display: block; }
+  #sec_07 .list_item {
+    padding-left: 20px; }
+  #sec_08 .header {
+    font-size: 42px;
+    margin-bottom: 60px; }
+    #sec_08 .header br {
+      display: none; }
+  #sec_08 img {
+    width: 100%; }
+  #sec_08 .text {
+    margin-right: 0; }
+    #sec_08 .text br {
+      display: none; }
+  #sec_08 .sec_img {
+    margin-top: 60px; }
+  #sec_09 .row + .row {
+    margin: 0 -40px 0 -30px; }
+  #sec_09 .header {
+    margin-bottom: 50px; }
+    #sec_09 .header br {
+      display: none; }
+  #sec_09 .header:before {
+    display: none; }
+  #sec_09 form {
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 480px;
+    padding-top: 420px;
+    background-image: url(../img/sec_09-bln-1-xs.png);
+    width: 100%; }
+  #sec_09 .item {
+    float: none;
+    margin: 0px auto 0;
+    width: 545px;
+    padding: 0;
+    background: none; }
+    #sec_09 .item .title_header {
+      text-align: center;
+      margin-top: 20px; }
+  #sec_10 {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(../img/sec_09-bg-xs.png);
+    margin-top: 100px;
+    padding-top: 140px;
+    padding-bottom: 550px; }
+    #sec_10 .col-5 {
+      margin-left: 0; }
+    #sec_10 .item {
+      width: 340px;
+      margin: 0 auto; }
+    #sec_10 br {
+      display: none; }
+  #sec_11 .slider_11 .col-6 {
+    width: 100%; }
+  #sec_11 .slider_11 img {
+    width: 100%;
+    max-width: 556px;
+    margin: 0 auto 40px; }
+  #sec_11 .dialog {
+    min-width: 100%;
+    background: none;
+    min-height: 120px; }
+  #sec_12 {
+    background-size: 100% 100%;
+    padding-top: 350px;
+    margin-top: -100px; }
+    #sec_12 br {
+      display: none; }
+    #sec_12 [class*='item-'] {
+      display: none; }
+    #sec_12 .slider_12_mobile {
+      display: block; }
+    #sec_12 .col-6 {
+      width: 100%; }
+    #sec_12 .description {
+      margin-bottom: 90px; }
+  #sec_13 {
+    padding-bottom: 0; }
+    #sec_13 .row + .row {
+      margin: 0 -40px 0 -30px; }
+    #sec_13 .cloud-6 {
+      display: none; }
+  #sec_14 .social {
+    float: none;
+    width: 200px;
+    margin: 20px auto 0; }
+  footer .politics {
+    margin-top: 10px; }
+    footer .politics a {
+      font-size: 17px; }
   footer {
     text-align: center; }
     footer .politics a {
-      font-size: 14px;
+      font-size: 18px;
       display: block;
       text-align: center; }
     footer .politics a + a {

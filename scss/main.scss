@@ -3,6 +3,39 @@
 
 //Custom Styles Here
 
+
+
+
+
+#sec_02, #sec_13{
+  position: relative;
+  background-image: url(../img/sec_02-bg.png);
+  .header{
+    margin-bottom: 25px;
+  }
+  form{
+    position: relative;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+
+
+    .field{
+      display: block;
+      margin: 0 auto;
+    }
+    .field+.field{
+      margin-top: 15px;
+    }
+    .btn{margin-top: 35px;}
+  }
+  [class*='cloud-']{
+    position: absolute;
+    animation: clouds_move 50s infinite linear;
+  }
+}
+
 #sec_02{
   padding: 200px 0 100px;
   background-repeat: no-repeat;
@@ -44,37 +77,6 @@
     right: -30px;
     z-index: 2;
     animation-delay: -30.8s
-  }
-}
-
-
-
-#sec_02, #sec_13{
-  position: relative;
-  background-image: url(../img/sec_02-bg.png);
-  .header{
-    margin-bottom: 25px;
-  }
-  form{
-    position: relative;
-    z-index: 2;
-    background-repeat: no-repeat;
-    background-position: top center;
-    width: 100%;
-
-
-    .field{
-      display: block;
-      margin: 0 auto;
-    }
-    .field+.field{
-      margin-top: 15px;
-    }
-    .btn{margin-top: 35px;}
-  }
-  [class*='cloud-']{
-    position: absolute;
-    animation: clouds_move 50s infinite linear;
   }
 }
 
@@ -139,7 +141,10 @@
   .slick-dots{
     text-align: left;
     padding-left: 50px;
-    bottom: -90px;
+    bottom: 0px;
+  }
+  .sec_03-slider{
+    padding-bottom: 90px;
   }
 }
 
@@ -311,7 +316,7 @@
 
 #sec_07{
   padding: 50px 0 100px;
-
+  .mobile{display:none;}
 
   .header_main{
     margin-bottom: 60px;
@@ -502,7 +507,7 @@
 
   .dialog{
     min-width: 555px;
-    height: 219px;
+    min-height: 219px;
     padding: 0 70px 0 90px;
     background-repeat: no-repeat;
     background-position: top center;
@@ -645,6 +650,8 @@
       margin-bottom: -30px;
     }
   }
+
+  .slider_12_mobile{display:none}
 }
 
 
@@ -660,7 +667,7 @@
   .cloud-1{
     bottom: 600px;
     left: 186px;
-    z-index: 3;
+    z-index: 1;
     animation-delay: -10s
   }
   .cloud-2{
@@ -792,11 +799,20 @@ footer{
     a+a{margin-left: 10px;}
   }
   .logo_rezart{
-    margin-top: 5px;
+    // margin-top: 5px;
     margin-left: 25px;
-    width: 80px;
+    width: 55px;
     // margin-right: 20px;
     float: right;
+    svg{
+      fill: #fff;
+      transition: fill .3s;
+    }
+    &:hover{
+      svg{
+        fill: $main_color;
+      }
+    }
   }
 }
 
