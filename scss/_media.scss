@@ -296,6 +296,11 @@
   }
   #sec_02{
     margin: 0 -40px 0 -30px;
+
+    .header, .description{
+      margin-left: 40px;
+      margin-right: 40px;
+    }
     .cloud-5{
       display: none;
     }
@@ -332,8 +337,9 @@
     .text br{display: none}
     img{width:100%;}
     .header{
-      margin-right: -60px;
-      font-size: 46px;
+      margin-right: 0px;
+      font-size: 38px;
+      padding-left: 20px;
     }
     .baloon-1, .baloon-2{display:none}
     .item_big{
@@ -352,6 +358,19 @@
       width: 50%;
     }
     .item--margined {margin-left: 0;}
+    .slick-dots{
+      top: -50px;
+      transform: none;
+      left: 0;
+      width: 100% ;
+      height: 20px;
+      li{
+        display: inline-block;
+        width: 20px;
+        margin-top: 0 !important;
+      }
+      li+li{margin-left: 20px;}
+    }
   }
   #sec_06{
     background-repeat: no-repeat;
@@ -422,7 +441,7 @@
     .item{
       float: none;
       margin: 0px auto 0;
-      width: 545px;
+      width: 480px;
       padding: 0;
       background: none;
       .title_header{
@@ -513,34 +532,128 @@
   div[id*="modal_callback"]{
     min-width: 510px;
     .md-content{
-      padding: 35px;
-      background: #fff;
+      width: 510px;
+      background-size: 100% 100%;
     }
     h2{
-      margin: 30px 0;
-      line-height: 34px;
+      margin-top: 60px;
     }
-    form {
-      display: block;
-      max-width: 390px;
-      margin: 0 auto;
-      width: 100%;
+
+    .h2_desc{
+      margin-bottom: 30px;
     }
-    .field{
-      max-width: 360px;
-      width: 100%;
-    }
-    .field+.field {
-     margin-top: 15px
-    }
-    .btn{
-      margin: 25px auto 0;
-    }
+    .btn{margin-top: 20px;}
   }
   div[id*='modal_politics']{
     h2{padding-top: 70px;}
     .btn_close_modal{
       top: 20px;
     }
+  }
+}
+
+
+@media (max-width: 500px) {
+  #sec_03{
+    padding-top: 30px;
+    .header{padding-left: 20px;}
+    .item{padding-left: 20px;}
+  }
+  #sec_04{
+    margin-top: -100px;
+    padding-bottom: 265px;
+    background-size: auto 100%;
+    padding: 190px 0;
+    .header{margin-top: 150px;}
+    .ytwrap{
+      width: 280px;
+      height: 158px;
+      .youtube{
+        width:280px;
+        background-size: contain;
+        height: 158px;
+      }
+    }
+  }
+  #sec_05{
+    .header{font-size: 32px;}
+    [class*='col-']{width: 100%;}
+    .col-xs+.col-xs{margin-top: 50px;}
+    .second_row{margin-top: 50px;}
+  }
+  #sec_07{
+    .item_row{
+      .col-3, .col-4{
+        width: 100%;
+      }
+    }
+    .btn span{top: -4px;}
+    .item_row_last {
+      .item{
+        width: 100%;
+      }
+      .btn{
+        width: 100%;
+        font-size: 16px;
+        span{
+          top: -8px;
+        }
+      }
+    }
+  }
+  #sec_09{
+    .item{width: 100%;}
+  }
+  #sec_10{
+    padding-top: 90px;
+    .item{
+      width: 290px;
+    }
+  }
+  #sec_11{
+    .name, .dialog{margin-left: 0}
+    .dialog{padding: 0;}
+  }
+  #sec_12{
+    .header, .description{
+      padding-left: 20px;
+    }
+    .slick-dots{
+      li{width: 20px;}
+      li+li{margin-left: 10px; margin-top: 0;}
+    }
+  }
+  #sec_14{
+    text-align: center;
+    .phones_block{
+      float: none;
+      margin: 10px auto;
+      width: 270px;
+    }
+  }
+
+  div[id*="modal_callback"]{
+    min-width: 330px;
+    .md-content{
+      background-color: #fff;
+      background-image: none;
+      width: 330px;
+      background-size: 100% 100%;
+      height: auto;
+    }
+    h2{
+      margin-top: 40px;
+      font-size: 26px;
+      line-height: 28px;
+    }
+
+    .h2_desc{
+      margin-bottom: 30px;
+      font-size: 18px;
+      line-height: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .btn{margin-top: 20px;}
   }
 }

@@ -1,6 +1,7 @@
 @import url(gallery.css);
 @import url(../libs/niftymodal/component.css);
 @import url(../libs/slick/slick.min.css);
+@import url(../libs/lightbox2/lightbox.min.css);
 #sec_02, #sec_13 {
   position: relative;
   background-image: url(../img/sec_02-bg.png); }
@@ -699,31 +700,57 @@ footer {
   width: 0; }
 
 div[id*="modal_callback"] {
-  max-width: 500px; }
+  max-width: 560px;
+  min-width: 560px;
+  color: #000; }
   div[id*="modal_callback"] h2 {
     font-size: 29px;
     line-height: 36px;
-    margin: 30px 30px 0px; }
+    margin: 80px 30px 0px; }
   div[id*="modal_callback"] .h2_desc {
-    margin-bottom: 25px; }
+    margin: 0 70px 40px; }
   div[id*="modal_callback"] .md-content {
+    background-image: url(../img/pop_up.png);
+    background-color: transparent;
+    background-position: top center;
+    background-repeat: no-repeat;
     padding: 20px;
-    background: #fff;
+    width: 559px;
+    height: 620px;
     background-size: cover;
     text-align: center; }
   div[id*="modal_callback"] .form-wrap {
     display: block; }
   div[id*="modal_callback"] .field {
-    max-width: 360px;
+    max-width: 292px;
     width: 100%;
     margin-left: auto;
     margin-right: auto; }
     div[id*="modal_callback"] .field input {
-      width: 100%; }
+      width: 100%;
+      color: #000; }
+    div[id*="modal_callback"] .field svg path {
+      stroke: #000; }
   div[id*="modal_callback"] .field + .field {
-    margin-top: 5px; }
+    margin-top: 20px; }
+  div[id*="modal_callback"] input::-webkit-input-placeholder {
+    color: #000;
+    opacity: .7;
+    font: 20px/24px "Blogger Sans", sans-serif; }
+  div[id*="modal_callback"] input:-moz-placeholder {
+    color: #000;
+    opacity: .7;
+    font: 20px/24px "Blogger Sans", sans-serif; }
+  div[id*="modal_callback"] input::-moz-placeholder {
+    color: #000;
+    opacity: .7;
+    font: 20px/24px "Blogger Sans", sans-serif; }
+  div[id*="modal_callback"] input:-ms-input-placeholder {
+    color: #000;
+    opacity: .7;
+    font: 20px/24px "Blogger Sans", sans-serif; }
   div[id*="modal_callback"] .btn {
-    margin: 10px auto 0; }
+    margin: 30px auto 0; }
 
 .field {
   position: relative;
@@ -736,7 +763,8 @@ div[id*="modal_politics"] {
 
 .md_large {
   max-width: 100%;
-  width: 90%; }
+  width: 90%;
+  color: #000; }
 
 .md_large .md-content > div.md_content {
   padding: 0px 40px 0px; }
@@ -837,7 +865,7 @@ div[id*="modal_politics"] {
   position: absolute;
   color: #4e4e4e;
   right: 24px;
-  top: -10px;
+  top: -4px;
   opacity: 1; }
 
 .btn_close_modal {
@@ -1194,6 +1222,9 @@ div[id*="modal_politics"] {
       display: none; }
   #sec_02 {
     margin: 0 -40px 0 -30px; }
+    #sec_02 .header, #sec_02 .description {
+      margin-left: 40px;
+      margin-right: 40px; }
     #sec_02 .cloud-5 {
       display: none; }
   #sec_03 .sec_img {
@@ -1224,8 +1255,9 @@ div[id*="modal_politics"] {
     #sec_05 img {
       width: 100%; }
     #sec_05 .header {
-      margin-right: -60px;
-      font-size: 46px; }
+      margin-right: 0px;
+      font-size: 38px;
+      padding-left: 20px; }
     #sec_05 .baloon-1, #sec_05 .baloon-2 {
       display: none; }
     #sec_05 .item_big {
@@ -1243,6 +1275,20 @@ div[id*="modal_politics"] {
       width: 50%; }
     #sec_05 .item--margined {
       margin-left: 0; }
+    #sec_05 .slick-dots {
+      top: -50px;
+      -webkit-transform: none;
+      -ms-transform: none;
+      transform: none;
+      left: 0;
+      width: 100%;
+      height: 20px; }
+      #sec_05 .slick-dots li {
+        display: inline-block;
+        width: 20px;
+        margin-top: 0 !important; }
+      #sec_05 .slick-dots li + li {
+        margin-left: 20px; }
   #sec_06 {
     background-repeat: no-repeat;
     background-position: top center;
@@ -1306,7 +1352,7 @@ div[id*="modal_politics"] {
   #sec_09 .item {
     float: none;
     margin: 0px auto 0;
-    width: 545px;
+    width: 480px;
     padding: 0;
     background: none; }
     #sec_09 .item .title_header {
@@ -1379,24 +1425,99 @@ div[id*="modal_politics"] {
   div[id*="modal_callback"] {
     min-width: 510px; }
     div[id*="modal_callback"] .md-content {
-      padding: 35px;
-      background: #fff; }
+      width: 510px;
+      background-size: 100% 100%; }
     div[id*="modal_callback"] h2 {
-      margin: 30px 0;
-      line-height: 34px; }
-    div[id*="modal_callback"] form {
-      display: block;
-      max-width: 390px;
-      margin: 0 auto;
-      width: 100%; }
-    div[id*="modal_callback"] .field {
-      max-width: 360px;
-      width: 100%; }
-    div[id*="modal_callback"] .field + .field {
-      margin-top: 15px; }
+      margin-top: 60px; }
+    div[id*="modal_callback"] .h2_desc {
+      margin-bottom: 30px; }
     div[id*="modal_callback"] .btn {
-      margin: 25px auto 0; }
+      margin-top: 20px; }
   div[id*='modal_politics'] h2 {
     padding-top: 70px; }
   div[id*='modal_politics'] .btn_close_modal {
     top: 20px; } }
+
+@media (max-width: 500px) {
+  #sec_03 {
+    padding-top: 30px; }
+    #sec_03 .header {
+      padding-left: 20px; }
+    #sec_03 .item {
+      padding-left: 20px; }
+  #sec_04 {
+    margin-top: -100px;
+    padding-bottom: 265px;
+    background-size: auto 100%;
+    padding: 190px 0; }
+    #sec_04 .header {
+      margin-top: 150px; }
+    #sec_04 .ytwrap {
+      width: 280px;
+      height: 158px; }
+      #sec_04 .ytwrap .youtube {
+        width: 280px;
+        background-size: contain;
+        height: 158px; }
+  #sec_05 .header {
+    font-size: 32px; }
+  #sec_05 [class*='col-'] {
+    width: 100%; }
+  #sec_05 .col-xs + .col-xs {
+    margin-top: 50px; }
+  #sec_05 .second_row {
+    margin-top: 50px; }
+  #sec_07 .item_row .col-3, #sec_07 .item_row .col-4 {
+    width: 100%; }
+  #sec_07 .btn span {
+    top: -4px; }
+  #sec_07 .item_row_last .item {
+    width: 100%; }
+  #sec_07 .item_row_last .btn {
+    width: 100%;
+    font-size: 16px; }
+    #sec_07 .item_row_last .btn span {
+      top: -8px; }
+  #sec_09 .item {
+    width: 100%; }
+  #sec_10 {
+    padding-top: 90px; }
+    #sec_10 .item {
+      width: 290px; }
+  #sec_11 .name, #sec_11 .dialog {
+    margin-left: 0; }
+  #sec_11 .dialog {
+    padding: 0; }
+  #sec_12 .header, #sec_12 .description {
+    padding-left: 20px; }
+  #sec_12 .slick-dots li {
+    width: 20px; }
+  #sec_12 .slick-dots li + li {
+    margin-left: 10px;
+    margin-top: 0; }
+  #sec_14 {
+    text-align: center; }
+    #sec_14 .phones_block {
+      float: none;
+      margin: 10px auto;
+      width: 270px; }
+  div[id*="modal_callback"] {
+    min-width: 330px; }
+    div[id*="modal_callback"] .md-content {
+      background-color: #fff;
+      background-image: none;
+      width: 330px;
+      background-size: 100% 100%;
+      height: auto; }
+    div[id*="modal_callback"] h2 {
+      margin-top: 40px;
+      font-size: 26px;
+      line-height: 28px; }
+    div[id*="modal_callback"] .h2_desc {
+      margin-bottom: 30px;
+      font-size: 18px;
+      line-height: 20px;
+      margin-left: 20px;
+      margin-right: 20px; }
+    div[id*="modal_callback"] .btn {
+      margin-top: 20px; } }
