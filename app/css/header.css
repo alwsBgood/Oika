@@ -373,6 +373,20 @@ textarea:-ms-input-placeholder {
     overflow: hidden;
     -webkit-transition: opacity .4s;
     transition: opacity .4s; }
+  #nav .social {
+    margin-top: 8px; }
+    #nav .social svg {
+      fill: #fff;
+      height: 24px;
+      -webkit-transition: fill .3s;
+      transition: fill .3s; }
+    #nav .social a:hover svg {
+      fill: #ff2a56; }
+    #nav .social li {
+      display: inline-block;
+      width: auto; }
+    #nav .social li + li {
+      margin-left: 20px; }
 
 #nav.open {
   top: 0;
@@ -383,11 +397,9 @@ textarea:-ms-input-placeholder {
   padding-top: 20px;
   background-color: #05c772;
   padding-bottom: 150px; }
-  #nav.open li {
-    width: 100%; }
-    #nav.open li a {
-      opacity: 1;
-      display: inline-block; }
+  #nav.open li a {
+    opacity: 1;
+    display: inline-block; }
   #nav.open .inner.open {
     opacity: 1;
     margin-left: 10px; }
@@ -446,11 +458,14 @@ path#middle {
     #sec_01 .top {
       text-align: left; }
     #sec_01 .phones_block_menu {
-      margin-top: 40px; }
+      margin-top: 40px;
+      margin-bottom: 40px; }
       #sec_01 .phones_block_menu .tel, #sec_01 .phones_block_menu .call_back {
         float: none;
         margin-left: auto;
         margin-right: auto; }
+      #sec_01 .phones_block_menu .call_back {
+        margin-bottom: 20px; }
     #sec_01 .content_block {
       margin-top: 100px; }
     #sec_01 .content_block:before {
@@ -497,11 +512,14 @@ path#middle {
     #sec_01 .top {
       text-align: left; }
     #sec_01 .phones_block_menu {
-      margin-top: 40px; }
+      margin-top: 40px;
+      margin-bottom: 40px; }
       #sec_01 .phones_block_menu .tel, #sec_01 .phones_block_menu .call_back {
         float: none;
         margin-left: auto;
         margin-right: auto; }
+      #sec_01 .phones_block_menu .call_back {
+        margin-bottom: 20px; }
     #sec_01 .content_block {
       margin-top: 60px; }
     #sec_01 .content_block:before {

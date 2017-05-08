@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Blogger Sans-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/BloggerSans-Bold.woff2") format("woff2"), url("fonts/BloggerSans-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Blogger Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/BloggerSans.woff2") format("woff2"), url("fonts/BloggerSans.woff") format("woff"); }
+
+@font-face {
+  font-family: "RFKrabuler-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/RFKrabuler-Regular.woff2") format("woff2"), url("fonts/RFKrabuler-Regular.woff") format("woff"); }

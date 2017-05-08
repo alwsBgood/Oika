@@ -452,6 +452,24 @@ textarea:-ms-input-placeholder{
     overflow: hidden;
     transition: opacity .4s;
   }
+  .social{
+    margin-top: 8px;
+    svg{
+      fill: #fff;
+      height: 24px;
+      transition: fill .3s;
+    }
+    a:hover{
+      svg{
+        fill: $main_color;
+      }
+    }
+    li{
+      display: inline-block;
+      width: auto;
+    }
+    li+li{margin-left: 20px;}
+  }
 }
 
 #nav.open{
@@ -464,7 +482,7 @@ textarea:-ms-input-placeholder{
   background-color: #05c772;
   padding-bottom: 150px;
   li{
-    width: 100%;
+    // width: 100%;
     a{
       opacity: 1;
       display: inline-block;
@@ -536,11 +554,13 @@ path#middle {
     .top{text-align: left;}
     .phones_block_menu{
         margin-top: 40px;
+        margin-bottom: 40px;
         .tel, .call_back{
             float: none;
             margin-left: auto;
             margin-right: auto;
         }
+        .call_back{margin-bottom: 20px;}
     }
     .content_block{
         margin-top: 100px;
@@ -594,11 +614,13 @@ path#middle {
     .top{text-align: left;}
     .phones_block_menu{
         margin-top: 40px;
+        margin-bottom: 40px;
         .tel, .call_back{
             float: none;
             margin-left: auto;
             margin-right: auto;
         }
+        .call_back{margin-bottom: 20px;}
     }
     .content_block{
         margin-top: 60px;

@@ -100,6 +100,10 @@
       padding-top: 420px;
       background-image: url(../img/sec_09-bln-1-xs.png);
       width: 100%;
+      .field{
+        width: 330px;
+      }
+      .btn{width: 330px;}
     }
     .item{
       float: none;
@@ -125,7 +129,8 @@
       .col-6{
         width: 100%;
       }
-      img{
+      .youtube, iframe{
+        display: block;
         width:100%;
         max-width: 556px;
         margin: 0 auto 40px;
@@ -257,9 +262,9 @@
   }
   #sec_11{
     .slider_11{
-      img{
+      .youtube{
         width:100%;
-        margin-top: 18px;
+        margin-top: 0;
       }
     }
     .dialog{
@@ -465,11 +470,13 @@
     br{display:none}
   }
   #sec_11{
+
     .slider_11{
       .col-6{
         width: 100%;
       }
-      img{
+      .youtube, iframe{
+        display: block;
         width:100%;
         max-width: 556px;
         margin: 0 auto 40px;
@@ -541,6 +548,7 @@
 
     .h2_desc{
       margin-bottom: 30px;
+      font-size: 18px;
     }
     .btn{margin-top: 20px;}
   }
@@ -554,13 +562,17 @@
 
 
 @media (max-width: 500px) {
+  .description,.text,.header,.title{
+    br{display:none}
+  }
   #sec_03{
+    display: none;
     padding-top: 30px;
     .header{padding-left: 20px;}
     .item{padding-left: 20px;}
   }
   #sec_04{
-    margin-top: -100px;
+    margin-top: -250px;
     padding-bottom: 265px;
     background-size: auto 100%;
     padding: 190px 0;
@@ -587,7 +599,6 @@
         width: 100%;
       }
     }
-    .btn span{top: -4px;}
     .item_row_last {
       .item{
         width: 100%;
@@ -596,7 +607,7 @@
         width: 100%;
         font-size: 16px;
         span{
-          top: -8px;
+          top: -4px;
         }
       }
     }
@@ -613,6 +624,16 @@
   #sec_11{
     .name, .dialog{margin-left: 0}
     .dialog{padding: 0;}
+
+    .slider_11{
+      .youtube:before{display:none}
+      .youtube, iframe{
+          display: block;
+          width: 280px;
+          height: 160px;
+          margin: 0 auto 40px;
+      }
+    }
   }
   #sec_12{
     .header, .description{

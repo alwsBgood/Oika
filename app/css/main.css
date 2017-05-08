@@ -176,14 +176,16 @@
       border-radius: 40px;
       z-index: -1; }
   #sec_04 .youtube {
+    cursor: pointer;
     position: relative;
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url(../img/youtube-bg.png);
+    background-image: url(../img/youtube-bg.png) !important;
     width: 753px;
     height: 424px;
     z-index: 2; }
     #sec_04 .youtube .play {
+      cursor: pointer;
       width: 65px;
       height: 75px;
       position: absolute;
@@ -245,7 +247,7 @@
       font-size: 24px; }
   #sec_05 .second_row {
     margin-top: 115px;
-    margin-bottom: 80px; }
+    margin-bottom: 40px; }
   #sec_05 .item--margined {
     margin-left: 47px; }
   #sec_05 .item .title {
@@ -262,11 +264,13 @@
   padding-bottom: 280px; }
   #sec_06 .header {
     margin-bottom: 20px; }
+  #sec_06 .description {
+    margin-bottom: 50px; }
   #sec_06 img {
     -webkit-border-radius: 10px;
     border-radius: 10px; }
   #sec_06 .btn {
-    margin: 80px auto 0; }
+    margin: 40px auto 0; }
     #sec_06 .btn:hover svg .cls-btn-2 {
       fill: #A830DD; }
     #sec_06 .btn:hover svg .cls-btn-1 {
@@ -444,6 +448,53 @@
     margin-top: 0px; }
   #sec_11 .slick-dots {
     bottom: -60px; }
+  #sec_11 .youtube {
+    cursor: pointer;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 556px;
+    height: 313px;
+    z-index: 2;
+    background-size: 100% 100%; }
+    #sec_11 .youtube .play {
+      cursor: pointer;
+      width: 42px;
+      height: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -25px;
+      margin-left: -16px;
+      z-index: 3; }
+      #sec_11 .youtube .play path {
+        -webkit-transition: fill .3s;
+        transition: fill .3s; }
+      #sec_11 .youtube .play .cls-yta-1 {
+        display: none; }
+    #sec_11 .youtube:before {
+      width: 120px;
+      height: 120px;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      content: '';
+      position: absolute;
+      top: 50%;
+      margin-left: -60px;
+      left: 50%;
+      margin-top: -60px;
+      z-index: 1;
+      background-color: #fed325; }
+    #sec_11 .youtube:hover svg .cls-ytp-1 {
+      fill: #32a1dc; }
+    #sec_11 .youtube:hover svg .cls-ytp-2 {
+      fill: #3bb6f8; }
+    #sec_11 .youtube:active .cls-ytp-1 {
+      -webkit-transform: transition(0 0);
+      -ms-transform: transition(0 0);
+      transform: transition(0 0); }
+    #sec_11 .youtube:active .cls-ytp-2 {
+      display: none; }
 
 #sec_12 {
   background-repeat: no-repeat;
@@ -706,9 +757,9 @@ div[id*="modal_callback"] {
   div[id*="modal_callback"] h2 {
     font-size: 29px;
     line-height: 36px;
-    margin: 80px 30px 0px; }
+    margin: 56px 30px 0px; }
   div[id*="modal_callback"] .h2_desc {
-    margin: 0 70px 40px; }
+    margin: 0 70px 20px; }
   div[id*="modal_callback"] .md-content {
     background-image: url(../img/pop_up.png);
     background-color: transparent;
@@ -732,7 +783,7 @@ div[id*="modal_callback"] {
     div[id*="modal_callback"] .field svg path {
       stroke: #000; }
   div[id*="modal_callback"] .field + .field {
-    margin-top: 20px; }
+    margin-top: 15px; }
   div[id*="modal_callback"] input::-webkit-input-placeholder {
     color: #000;
     opacity: .7;
@@ -760,6 +811,18 @@ div[id*="modal_politics"] {
   text-align: center; }
   div[id*="modal_politics"] h2 {
     padding-top: 50px; }
+
+#modal_politics_four h2 {
+  margin-bottom: 40px; }
+
+#modal_politics_four img {
+  max-width: 300px; }
+
+#modal_politics_four .md_content {
+  padding: 0 !important; }
+
+#modal_politics_four .md-content > div.md_content {
+  padding: 0 !important; }
 
 .md_large {
   max-width: 100%;
@@ -1063,6 +1126,10 @@ div[id*="modal_politics"] {
     padding-top: 420px;
     background-image: url(../img/sec_09-bln-1-xs.png);
     width: 100%; }
+    #sec_09 form .field {
+      width: 330px; }
+    #sec_09 form .btn {
+      width: 330px; }
   #sec_09 .item {
     float: none;
     margin: 0px auto 0;
@@ -1082,7 +1149,8 @@ div[id*="modal_politics"] {
       display: none; }
   #sec_11 .slider_11 .col-6 {
     width: 100%; }
-  #sec_11 .slider_11 img {
+  #sec_11 .slider_11 .youtube, #sec_11 .slider_11 iframe {
+    display: block;
     width: 100%;
     max-width: 556px;
     margin: 0 auto 40px; }
@@ -1191,9 +1259,9 @@ div[id*="modal_politics"] {
       float: right; }
   #sec_10 {
     margin-top: 0; }
-  #sec_11 .slider_11 img {
+  #sec_11 .slider_11 .youtube {
     width: 100%;
-    margin-top: 18px; }
+    margin-top: 0; }
   #sec_11 .dialog {
     min-width: 100%;
     background: none;
@@ -1374,7 +1442,8 @@ div[id*="modal_politics"] {
       display: none; }
   #sec_11 .slider_11 .col-6 {
     width: 100%; }
-  #sec_11 .slider_11 img {
+  #sec_11 .slider_11 .youtube, #sec_11 .slider_11 iframe {
+    display: block;
     width: 100%;
     max-width: 556px;
     margin: 0 auto 40px; }
@@ -1430,7 +1499,8 @@ div[id*="modal_politics"] {
     div[id*="modal_callback"] h2 {
       margin-top: 60px; }
     div[id*="modal_callback"] .h2_desc {
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      font-size: 18px; }
     div[id*="modal_callback"] .btn {
       margin-top: 20px; }
   div[id*='modal_politics'] h2 {
@@ -1439,14 +1509,17 @@ div[id*="modal_politics"] {
     top: 20px; } }
 
 @media (max-width: 500px) {
+  .description br, .text br, .header br, .title br {
+    display: none; }
   #sec_03 {
+    display: none;
     padding-top: 30px; }
     #sec_03 .header {
       padding-left: 20px; }
     #sec_03 .item {
       padding-left: 20px; }
   #sec_04 {
-    margin-top: -100px;
+    margin-top: -250px;
     padding-bottom: 265px;
     background-size: auto 100%;
     padding: 190px 0; }
@@ -1469,15 +1542,13 @@ div[id*="modal_politics"] {
     margin-top: 50px; }
   #sec_07 .item_row .col-3, #sec_07 .item_row .col-4 {
     width: 100%; }
-  #sec_07 .btn span {
-    top: -4px; }
   #sec_07 .item_row_last .item {
     width: 100%; }
   #sec_07 .item_row_last .btn {
     width: 100%;
     font-size: 16px; }
     #sec_07 .item_row_last .btn span {
-      top: -8px; }
+      top: -4px; }
   #sec_09 .item {
     width: 100%; }
   #sec_10 {
@@ -1488,6 +1559,13 @@ div[id*="modal_politics"] {
     margin-left: 0; }
   #sec_11 .dialog {
     padding: 0; }
+  #sec_11 .slider_11 .youtube:before {
+    display: none; }
+  #sec_11 .slider_11 .youtube, #sec_11 .slider_11 iframe {
+    display: block;
+    width: 280px;
+    height: 160px;
+    margin: 0 auto 40px; }
   #sec_12 .header, #sec_12 .description {
     padding-left: 20px; }
   #sec_12 .slick-dots li {

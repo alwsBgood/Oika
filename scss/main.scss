@@ -184,10 +184,11 @@
     }
   }
   .youtube{
+    cursor: pointer;
     position: relative;
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url(../img/youtube-bg.png);
+    background-image: url(../img/youtube-bg.png) !important;
 
 
     width: 753px;
@@ -195,6 +196,7 @@
     z-index: 2;
 
     .play{
+      cursor: pointer;
       width: 65px;
       height: 75px;
       position: absolute;
@@ -207,23 +209,23 @@
       }
 
       &:hover{
-          svg{
-              .cls-ytp-1{
-                  fill:#32a1dc;
-              }
-              .cls-ytp-2{
-                  fill: #3bb6f8;
-              }
-          }
-      }
-      &:active{
+        svg{
           .cls-ytp-1{
-              transform: transition(0 0)
+              fill:#32a1dc;
           }
           .cls-ytp-2{
-              display: none;
+              fill: #3bb6f8;
           }
       }
+    }
+      &:active{
+      .cls-ytp-1{
+          transform: transition(0 0)
+      }
+      .cls-ytp-2{
+          display: none;
+      }
+    }
   }
 }
 
@@ -272,7 +274,7 @@
   }
   .second_row{
     margin-top: 115px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
   .item--margined{margin-left: 47px;}
   .item{
@@ -295,11 +297,14 @@
   .header{
     margin-bottom: 20px
   }
+  .description{
+    margin-bottom: 50px;
+  }
   img{
     border-radius: 10px;
   }
   .btn{
-    margin: 80px auto 0;
+    margin: 40px auto 0;
     &:hover{
         svg{
             .cls-btn-2{
@@ -522,6 +527,65 @@
   }
   .slick-dots{
     bottom: -60px;
+  }
+
+  .youtube{
+    cursor: pointer;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    width: 556px;
+    height: 313px;
+    z-index: 2;
+    background-size: 100% 100%;
+
+    .play{
+      cursor: pointer;
+      width: 42px;
+      height: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -25px;
+      margin-left: -16px;
+      z-index: 3;
+      path{transition: fill .3s;}
+      .cls-yta-1{display:none;}
+      }
+      &:before{
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+          content: '';
+          position: absolute;
+          top: 50%;
+          margin-left: -60px;
+          left: 50%;
+          margin-top: -60px;
+          z-index: 1;
+          background-color: $second_color;
+        }
+
+
+      &:hover{
+        svg{
+          .cls-ytp-1{
+              fill:#32a1dc;
+          }
+          .cls-ytp-2{
+              fill: #3bb6f8;
+          }
+      }
+    }
+      &:active{
+      .cls-ytp-1{
+          transform: transition(0 0)
+      }
+      .cls-ytp-2{
+          display: none;
+      }
+    }
   }
 }
 

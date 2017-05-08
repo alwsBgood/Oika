@@ -66,12 +66,12 @@ $(function() {
       $(this).attr('disabled', true);
     });
      // Отправка в Google sheets
-     $.ajax({
-      type: 'POST',
-      url: '',
-      dataType: 'json',
-      data: msg,
-    });
+    //  $.ajax({
+    //   type: 'POST',
+    //   url: '',
+    //   dataType: 'json',
+    //   data: msg,
+    // });
     // Отправка на почту
     $.ajax({
       type: 'POST',
@@ -82,10 +82,10 @@ $(function() {
           $("[name=send]").removeAttr("disabled");
         }, 1000);
         $('div.md-show').removeClass('md-show');
-        dataLayer.push({
-          'form_type': formType,
-          'event': "form_submit"
-        });
+        // dataLayer.push({
+        //   'form_type': formType,
+        //   'event': "form_submit"
+        // });
           // Отправка в базу данных
           $.ajax({
            type: 'POST',
@@ -97,7 +97,7 @@ $(function() {
              console.log(form.serialize());
              if (response.status == 'success') {
               $('form').trigger("reset");
-              window.location.href = '/success';
+              window.location.href = '/lp/success';
             }
           }
         });
@@ -144,7 +144,7 @@ $(window).scroll(function() {
 
 $(function() {
   $(".youtube").each(function() {
-    // $(this).css('background-image', 'url(http://i.ytimg.com/vi/' + this.id + '/sddefault.jpg)');
+    $(this).css('background-image', 'url(http://i.ytimg.com/vi/' + this.id + '/sddefault.jpg)');
 
     // $(this).append($('<div/>', {'class': 'play'}));
 
@@ -222,7 +222,8 @@ $('.slider_11').slick({
   slidesToShow: 1,
   dots: true,
   arrows: false,
-  slidesToScroll: 1
+  slidesToScroll: 1,
+  infinite: false
 });
 
 $('.slider_12_mobile').slick({

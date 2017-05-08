@@ -4,10 +4,10 @@
 $db_user = "root"; // Логин БД
 $db_password = "z"; // Пароль БД
 $database = "allinsol_reg"; // БД*/
-$db_host = "qagirl.mysql.ukraine.com.ua";
-$db_user = "qagirl_db"; // Логин БД
-$db_password = "CS3H7lta"; // Пароль БД
-$database = "qagirl_db"; // БД
+ $db_host = "oyka.mysql.ukraine.com.ua";
+$db_user = "oyka_lp"; // Логин БД
+$db_password = "v88k672g"; // Пароль БД
+$database = "oyka_lp"; // БД
 
 // Подключение к базе данных
 $db = mysql_connect($db_host,$db_user,$db_password) or die("Не могу создать соединение ");
@@ -101,16 +101,16 @@ if ($data['orderType'] == 'order-add') {
 }
 switch ($data['registrationType']) {
     case 'default_registration':
-        $registration_type_id = '';
+        $registration_type_id = '0';
         break;
-    case 'standart':
-        $registration_type_id = '';
+    case 'zabava':
+        $registration_type_id = '1';
         break;
-    case 'super':
-        $registration_type_id = '';
+    case 'skazka':
+        $registration_type_id = '2';
         break;
-    case 'special':
-        $registration_type_id = "";
+    case 'magiya':
+        $registration_type_id = '3';
         break;
     default:
         throw new \RuntimeException('Undefined Registration Type. Add class default_registration for default');
