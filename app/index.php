@@ -1,7 +1,8 @@
-<?php
+<!-- <?php
     require 'db/data.php';
     require 'db/visits.php';
-?>
+?> -->
+
 <!DOCTYPE html>
 <html class="no-js" lang="ru">
 
@@ -523,7 +524,6 @@
                     <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 9"><defs><style>.cls-ok-1{fill:none;stroke:#fed325;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;fill-rule:evenodd;}</style></defs><path class="cls-ok-1" d="M123,190.6l2.29,2.4,5.71-6" transform="translate(-121.5 -185.5)"/></svg>Мастер-класс на выбор</li>
                     <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 9"><defs><style>.cls-ok-1{fill:none;stroke:#fed325;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;fill-rule:evenodd;}</style></defs><path class="cls-ok-1" d="M123,190.6l2.29,2.4,5.71-6" transform="translate(-121.5 -185.5)"/></svg>Элементы костюмов на детей</li>
                     <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 9"><defs><style>.cls-ok-1{fill:none;stroke:#fed325;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;fill-rule:evenodd;}</style></defs><path class="cls-ok-1" d="M123,190.6l2.29,2.4,5.71-6" transform="translate(-121.5 -185.5)"/></svg>Твистинг</li>
-                    
                 </ul>
                 <a class="btn flex md-trigger" data-modal="modal_callback_p2"><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Заказать за 8750 грн</span></a>
             </div>
