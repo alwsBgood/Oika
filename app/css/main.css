@@ -227,6 +227,9 @@
     box-shadow: 0 1px 40px rgba(0, 0, 0, 0.2);
     -webkit-border-radius: 10px;
     border-radius: 10px; }
+    #sec_05 .slider_05 img {
+      -webkit-border-radius: 10px;
+      border-radius: 10px; }
   #sec_05 .slick-dots {
     width: 40px;
     top: 50%;

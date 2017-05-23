@@ -144,12 +144,12 @@ $(window).scroll(function() {
 
 $(function() {
   $(".youtube").each(function() {
-    $(this).css('background-image', 'url(http://i.ytimg.com/vi/' + this.id + '/sddefault.jpg)');
+    $(this).css('background-image', 'url(http://i.ytimg.com/vi_webp/' + this.id + '/hqdefault.webp)');
 
     // $(this).append($('<div/>', {'class': 'play'}));
 
     $(document).delegate('#'+this.id, 'click', function() {
-      var iframe_url = "https://www.youtube.com/embed/" + this.id + "?autoplay=1&autohide=1";
+      var iframe_url = "https://www.youtube.com/embed/" + this.id + "?autoplay=1&autohide=1&rel=0&controls=0&showinfo=0";
       if ($(this).data('params')) iframe_url+='&'+$(this).data('params');
 
       var iframe = $('<iframe/>', {'frameborder': '0', 'src': iframe_url, 'width': $(this).width(), 'height': $(this).height() })
