@@ -15,8 +15,13 @@ $(function() {
 
    var error;
    var ref = btn.closest('form').find('[required]');
-   var loc = ymaps.geolocation.city+', '+ymaps.geolocation.region+', '+ymaps.geolocation.country;
-   $('[name=city]').val(loc);
+   // var loc = ymaps.geolocation.city+', '+ymaps.geolocation.region+', '+ymaps.geolocation.country;
+   // $('[name=city]').val(loc);
+
+   $.get("http://ipinfo.io", function(response) {
+    $('[name=city]').val(response.city + ', ' + response.country)
+   }, "jsonp");
+
    var msg = btn.closest('form').find('input, textarea, select');
    var short_msg = btn.closest('form').find('[name=project_name], [name=admin_email], [name=form_subject], [name=city], [name=page_url], [name=user_agent], [type="text"], [type="email"], [type="tel"]');
    var msg = btn.closest('form').find('input, textarea, select');
@@ -65,6 +70,22 @@ $(function() {
     $(send_btn).each(function() {
       $(this).attr('disabled', true);
     });
+
+      // Отправка в  Zoho
+     //  var form_data = $(this).closest('form').serializeArray();
+     //  var form_data_zoho = {};
+
+     //  $.each(form_data, function(i, v) {
+     //    form_data_zoho[v.name] = v.value;
+     //  });
+
+     //  console.log(form_data_zoho);
+     //  $.ajax({
+     //   type: 'POST',
+     //   url: '/registration/application.php',
+     //   data: {data_zoho: form_data_zoho, utm_source: form_data_zoho['utm_source'], google_id: form_data_zoho['google_id'], utm_campaign: form_data_zoho['utm_campaign'], utm_content: form_data_zoho['utm_content'], utm_medium: form_data_zoho['utm_medium'], utm_term: form_data_zoho['utm_term']},
+     // });
+
      // Отправка в Google sheets
     //  $.ajax({
     //   type: 'POST',
@@ -72,38 +93,39 @@ $(function() {
     //   dataType: 'json',
     //   data: msg,
     // });
+
     // Отправка на почту
-    $.ajax({
-      type: 'POST',
-      url: 'mail.php',
-      data: short_msg,
-      success: function() {
-        setTimeout(function() {
-          $("[name=send]").removeAttr("disabled");
-        }, 1000);
-        $('div.md-show').removeClass('md-show');
-        // dataLayer.push({
-        //   'form_type': formType,
-        //   'event': "form_submit"
-        // });
-          // Отправка в базу данных
-          $.ajax({
-           type: 'POST',
-           url: 'db/registration.php',
-           dataType: 'json',
-           data: form.serialize(),
-           success: function(response) {
-             console.info(response);
-             console.log(form.serialize());
-             if (response.status == 'success') {
-              $('form').trigger("reset");
-              window.location.href = '/lp/success';
-            }
-          }
-        });
-      },
-      error: function(xhr, str) {
-        console.log("Erorr")
+    // $.ajax({
+    //   type: 'POST',
+    //   url: 'mail.php',
+    //   data: short_msg,
+    //   success: function() {
+    //   // GTM action
+    //     // dataLayer.push({
+    //     //   'form_type': formType,
+    //     //   'event': "form_submit"
+    //     // });
+    //   },
+    //   error: function(xhr, str) {
+    //     console.log("Erorr")
+    //   }
+    // });
+
+      // Отправка в базу данных
+      $.ajax({
+       type: 'POST',
+       url: 'db/registration.php',
+       dataType: 'json',
+       data: form.serialize(),
+       success: function(response) {
+         setTimeout(function() {
+           $("[name=send]").removeAttr("disabled");
+         }, 1000);
+         $('div.md-show').removeClass('md-show');
+         if (response.status == 'success') {
+          $('form').trigger("reset");
+          window.location.href = '/lp/success';
+        }
       }
     });
 

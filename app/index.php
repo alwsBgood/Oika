@@ -146,10 +146,20 @@
             <div class="col-12 tc">
                 <h2 id="sec_02_anch" class="text--title header">Получите <br> индивидуальную консультацию </h2>
                 <p class="description text--desc">и узнайте, какой праздник мы можем <br> организовать для вашего ребенка</p>
-                <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
+               
+<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />   
+<input type='text' style='display:none;'  name='Last Name' value='_'/>
+<input type='text' style='display:none;'  name='LEADCF1' value='Получите индивидуальную консультацию'/>
+
+<!--               <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
 
                     <!-- Hidden DB Fields -->
-                    <input type="hidden"  name="registrationType" value="default_registration">
+<!--                     <input type="hidden"  name="registrationType" value="default_registration">
                     <input type="hidden"  name="orderType" value="Zayavka_consult">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -166,7 +176,7 @@
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>">
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
 
                     <!-- Zoho -->
                 <!--     <input type="hidden" name="product_id" value="2167809000000656177">
@@ -176,19 +186,19 @@
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-                    <input type="hidden" name="project_name" value="Oyka">
+<!--                    <input type="hidden" name="project_name" value="Oyka">
                     <input type="hidden" name="admin_email" value="alien_202@mail.ru">
-                    <input type="hidden" name="form_type" value="firstForm_consult">
+                    <input type="hidden" name="form_type" value="firstForm_consult">  -->
                     <!-- END Hidden Required Fields -->
 
                     <span class="field">
-                        <input type="text" class="form-control" name="name" required=""  placeholder="Ваше имя " />
+                        <input type="text" class="form-control" name="First Name" required=""  placeholder="Ваше имя " />
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
 
                     <span class="field">
-                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="custom_tel" required="">
+                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="Phone" required="">
                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
@@ -198,7 +208,7 @@
                     </span> -->
 
 
-                    <button type="submit" class="btn" name="send"><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
+                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
 
                     <div class="clear"></div>
                 </form>
@@ -587,10 +597,20 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
+
+<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />
+<input type='text' style='display:none;'  name='Last Name' value='_'/>
+<input type='text' style='display:none;'  name='LEADCF1' value='Заявка на любую программу - Световая открыточка в подарок!'/>
+
+<!--            <form  method="POST" class="form-inline db-form" action="javascript:void(null);"> -->
 
                     <!-- Hidden DB Fields -->
-                    <input type="hidden"  name="registrationType" value="default_registration">
+<!--                    <input type="hidden"  name="registrationType" value="default_registration">
                     <input type="hidden"  name="orderType" value="Zayavka">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -607,7 +627,7 @@
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>">
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
 
                     <!-- Zoho -->
                 <!--     <input type="hidden" name="product_id" value="2167809000000656177">
@@ -617,29 +637,29 @@
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-                    <input type="hidden" name="project_name" value="Oyka">
+<!--                     <input type="hidden" name="project_name" value="Oyka">
                     <input type="hidden" name="admin_email" value="alien_202@mail.ru">
-                    <input type="hidden" name="form_type" value="secondForm_present">
+                    <input type="hidden" name="form_type" value="secondForm_present"> -->
                     <!-- END Hidden Required Fields -->
 
                     <span class="field">
-                        <input type="text" class="form-control" name="name" required=""  placeholder="Ваше имя " />
+                        <input type="text" class="form-control" name="First Name" required=""  placeholder="Ваше имя " />
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
 
                     <span class="field">
-                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="custom_tel" required="">
+                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="Phone" required="">
                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
                     <span class="field">
-                        <input type="email" required="" placeholder="Ваш E-Mail" name="email" class="form-control">
+                        <input type="email" required="" placeholder="Ваш E-Mail" name="Email" class="form-control">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
 
-                    <button type="submit" class="btn" name="send"><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
+                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
 
                     <div class="clear"></div>
                 </form>
@@ -683,7 +703,7 @@
                 </div>
                 <div class="col-6">
                     <div class="item">
-                        <p class="name text--title">Надежда и Маша</p>
+                        <p class="name text--title">Мама Аня&nbsp;</p>
                         <div class="dialog flex"><p class="text">Каждый год мы даже не думаем, где отмечать — мы просто приходим сюда, потому что здесь всегда весело и нравится детям.</p></div>
                     </div>
                 </div>
@@ -697,8 +717,8 @@
                 </div>
                 <div class="col-6">
                     <div class="item">
-                        <p class="name text--title">Надежда и Маша</p>
-                        <div class="dialog flex"><p class="text">Каждый год мы даже не думаем, где отмечать — мы просто приходим сюда, потому что здесь всегда весело и нравится детям.</p></div>
+                        <p class="name text--title">Папа Александр</p>
+                        <div class="dialog flex"><p class="text">Очень классный праздник. Детям очень понравился, все рады и счастливы. Рекомендую сюжет "Алиса в стране чудес"!</p></div>
                     </div>
                 </div>
             </div>
@@ -711,8 +731,8 @@
                 </div>
                 <div class="col-6">
                     <div class="item">
-                        <p class="name text--title">Надежда и Маша</p>
-                        <div class="dialog flex"><p class="text">Каждый год мы даже не думаем, где отмечать — мы просто приходим сюда, потому что здесь всегда весело и нравится детям.</p></div>
+                        <p class="name text--title">Катя, Олеся и Анастасия</p>
+                        <div class="dialog flex"><p class="text">Вы крутые! Спасибо большое. Отдельное спасибо за классные дипломы.</p></div>
                     </div>
                 </div>
             </div>
@@ -828,18 +848,28 @@
             <div class="tc col-12">
                 <h2 class="text--title header">Если у вас остались <br> вопросы, то задайте их</h2>
                 <p class="description text--desc">в форме ниже, и менеджер «Ойки» свяжется <br> с вами как можно быстрее</p>
-
-
-
-
             </div>
         </div>
         <div class="row">
             <div class="col-12 tc">
-                <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
+            
+<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000630115 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+
+     <!-- Do not remove this code. -->
+    <input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+    <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+    <input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e229341782f1f3e430da412d928247fa3a7cf0'/>
+    <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+
+    <input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />  
+<input type='text' style='display:none;'  name='Last Name' value='_'/>
+<input type='text' style='display:none;'  name='LEADCF1' value='Задать вопрос'/>
+
+
+<!--                <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
 
                     <!-- Hidden DB Fields -->
-                    <input type="hidden"  name="registrationType" value="default_registration">
+ <!--                   <input type="hidden"  name="registrationType" value="default_registration">
                     <input type="hidden"  name="orderType" value="Vopros">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -856,7 +886,7 @@
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>">
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
 
                     <!-- Zoho -->
                 <!--     <input type="hidden" name="product_id" value="2167809000000656177">
@@ -866,34 +896,34 @@
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-                    <input type="hidden" name="project_name" value="Oyka">
+<!--                     <input type="hidden" name="project_name" value="Oyka">
                     <input type="hidden" name="admin_email" value="alien_202@mail.ru">
-                    <input type="hidden" name="form_type" value="questionForm">
+                    <input type="hidden" name="form_type" value="questionForm"> -->
                     <!-- END Hidden Required Fields -->
 
                     <span class="field">
-                        <input type="text" class="form-control" name="name" required=""  placeholder="Ваше имя " />
+                        <input type="text" class="form-control" name="First Name" required=""  placeholder="Ваше имя " />
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
 
                     <span class="field">
-                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="custom_tel" required="">
+                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="Phone" required="">
                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
                     <span class="field">
-                        <input type="email" required="" placeholder="Ваш E-Mail" name="email" class="form-control">
+                        <input type="email" required="" placeholder="Ваш E-Mail" name="Email" class="form-control">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
                     <span class="field textarea_field">
-                        <textarea name="question" required="" placeholder="Ваш вопрос" class="form-control"></textarea>
+                        <textarea name="Description" required="" placeholder="Ваш вопрос" class="form-control"></textarea>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.3 97.53"><defs><style>.cls-ta-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-ta-1" d="M308.12,724.5s-46.53-.25-48.42,29.16c-2.12,32.85,6.13,71.43,57.18,67,14.59-1.26,62.66-7.33,96-4.38,33.82,3,91.41,2.47,109.18.49,35.58-4,29-53.84,29.44-63.53-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C354.81,726.35,308.12,724.5,308.12,724.5Z" transform="translate(-258.9 -724)"/></svg>
                     </span>
 
 
-                    <button type="submit" class="btn" name="send"><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Задать вопрос</span></button>
+                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Задать вопрос</span></button>
 
                     <div class="clear"></div>
                 </form>
@@ -965,10 +995,20 @@
                 <p class="h2_desc text--desc description">Оставьте заявку и мы вам перезвоним в ближайшее время</p>
             </div>
             <div>
-                <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
+
+<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />     
+<input type='text' style='display:none;'  name='Last Name' value='_'/>
+<input type='text' style='display:none;'  name='LEADCF1' value='Обратный звонок'/>
+
+<!--            <form  method="POST" class="form-inline db-form" action="javascript:void(null);"> -->
                     <!-- Hidden DB Fields -->
 
-                    <input type="hidden"  name="registrationType" value="default_registration">
+<!--                    <input type="hidden"  name="registrationType" value="default_registration">
                     <input type="hidden"  name="orderType" value="CallBack">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -985,7 +1025,7 @@
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>">
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
 
                     <!-- Zoho -->
                 <!--     <input type="hidden" name="product_id" value="1212">
@@ -995,24 +1035,24 @@
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-                    <input type="hidden" name="project_name" value="Oyka">
-                    <input type="hidden" name="admin_email" value="alien_202@mail.ru">
+ <!--                   <input type="hidden" name="project_name" value="Oyka">
+                    <input type="hidden" name="admin_email" value="alien_202@mail.ru"> -->
                     
                     <input type="hidden" name="form_type" value="popUp_callback">
                     <!-- END Hidden Required Fields -->
 
                     <span class="field">
-                        <input type="text" class="form-control" name="name" required=""  placeholder="Ваше имя " />
+                        <input type="text" class="form-control" name="First Name" required=""  placeholder="Ваше имя " />
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
 
                     <span class="field">
-                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="custom_tel" required="">
+                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="Phone" required="">
                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
-                    <button type="submit" class="btn" name="send"><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
+                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
 
 
                     <div class="clear"></div>
@@ -1037,10 +1077,20 @@
                 <p class="h2_desc text--desc description">Оставьте заявку и мы вам перезвоним в ближайшее время</p>
             </div>
             <div>
-                <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
+            
+<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />    
+<input type='text' style='display:none;'  name='Last Name' value='_'/>
+<input type='text' style='display:none;'  name='LEADCF1' value='Заявка на консультацию'/>           
+
+<!--            <form  method="POST" class="form-inline db-form" action="javascript:void(null);"> -->
                     <!-- Hidden DB Fields -->
 
-                    <input type="hidden"  name="registrationType" value="default_registration">
+<!--                    <input type="hidden"  name="registrationType" value="default_registration">
                     <input type="hidden"  name="orderType" value="Zayavka_consult">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -1057,7 +1107,7 @@
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>">
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
 
                     <!-- Zoho -->
                 <!--     <input type="hidden" name="product_id" value="1212">
@@ -1067,24 +1117,24 @@
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-                    <input type="hidden" name="project_name" value="Oyka">
-                    <input type="hidden" name="admin_email" value="alien_202@mail.ru">
+<!--                    <input type="hidden" name="project_name" value="Oyka">
+                    <input type="hidden" name="admin_email" value="alien_202@mail.ru"> -->
                     
                     <input type="hidden" name="form_type" value="popUp_consult">
                     <!-- END Hidden Required Fields -->
 
                     <span class="field">
-                        <input type="text" class="form-control" name="name" required=""  placeholder="Ваше имя " />
+                        <input type="text" class="form-control" name="First Name" required=""  placeholder="Ваше имя " />
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
 
                     <span class="field">
-                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="custom_tel" required="">
+                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="Phone" required="">
                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
-                    <button type="submit" class="btn" name="send"><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
+                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
 
 
                     <div class="clear"></div>
@@ -1109,10 +1159,20 @@
                 <p class="h2_desc text--desc description">Оставьте заявку и мы вам перезвоним в ближайшее время</p>
             </div>
             <div>
-                <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
+                
+<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />    
+<input type='text' style='display:none;'  name='Last Name' value='_'/>
+<input type='text' style='display:none;'  name='LEADCF1' value='Забава - 4850грн.'/>                            
+                
+<!--                <form  method="POST" class="form-inline db-form" action="javascript:void(null);"> -->
                     <!-- Hidden DB Fields -->
 
-                    <input type="hidden"  name="registrationType" value="zabava">
+<!--                     <input type="hidden"  name="registrationType" value="zabava">
                     <input type="hidden"  name="orderType" value="Zayavka_zabava">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -1129,7 +1189,7 @@
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>">
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
 
                     <!-- Zoho -->
                 <!--     <input type="hidden" name="product_id" value="1212">
@@ -1139,29 +1199,29 @@
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-                    <input type="hidden" name="project_name" value="Oyka">
-                    <input type="hidden" name="admin_email" value="alien_202@mail.ru">
+<!--                     <input type="hidden" name="project_name" value="Oyka">
+                    <input type="hidden" name="admin_email" value="alien_202@mail.ru"> -->
                     
                     <input type="hidden" name="form_type" value="popUp_zabava ">
                     <!-- END Hidden Required Fields -->
 
                     <span class="field">
-                        <input type="text" class="form-control" name="name" required=""  placeholder="Ваше имя " />
+                        <input type="text" class="form-control" name="First Name" required=""  placeholder="Ваше имя " />
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
                     <span class="field">
-                        <input type="email" required="" placeholder="Ваш E-Mail" name="email" class="form-control">
+                        <input type="email" required="" placeholder="Ваш E-Mail" name="Email" class="form-control">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
 
                     <span class="field">
-                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="custom_tel" required="">
+                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="Phone" required="">
                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
-                    <button type="submit" class="btn" name="send"><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
+                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
 
 
                     <div class="clear"></div>
@@ -1186,10 +1246,20 @@
                 <p class="h2_desc text--desc description">Оставьте заявку и мы вам перезвоним в ближайшее время</p>
             </div>
             <div>
-                <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
+ 
+<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />   
+<input type='text' style='display:none;'  name='Last Name' value='_'/>
+<input type='text' style='display:none;'  name='LEADCF1' value='Сказка - 8750грн.'/> 
+ 
+<!-- <form  method="POST" class="form-inline db-form" action="javascript:void(null);"> -->
                     <!-- Hidden DB Fields -->
 
-                    <input type="hidden"  name="registrationType" value="skazka">
+<!--                    <input type="hidden"  name="registrationType" value="skazka">
                     <input type="hidden"  name="orderType" value="Zayavka_skazka">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -1206,7 +1276,7 @@
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>">
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
 
                     <!-- Zoho -->
                 <!--     <input type="hidden" name="product_id" value="1212">
@@ -1216,29 +1286,29 @@
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-                    <input type="hidden" name="project_name" value="Oyka">
-                    <input type="hidden" name="admin_email" value="alien_202@mail.ru">
+<!--                    <input type="hidden" name="project_name" value="Oyka">
+                    <input type="hidden" name="admin_email" value="alien_202@mail.ru"> -->
                     
                     <input type="hidden" name="form_type" value="popUp_skazka">
                     <!-- END Hidden Required Fields -->
 
                     <span class="field">
-                        <input type="text" class="form-control" name="name" required=""  placeholder="Ваше имя " />
+                        <input type="text" class="form-control" name="First Name" required=""  placeholder="Ваше имя " />
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
                     <span class="field">
-                        <input type="email" required="" placeholder="Ваш E-Mail" name="email" class="form-control">
+                        <input type="email" required="" placeholder="Ваш E-Mail" name="Email" class="form-control">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
 
                     <span class="field">
-                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="custom_tel" required="">
+                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="Phone" required="">
                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
-                    <button type="submit" class="btn" name="send"><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
+                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
 
 
                     <div class="clear"></div>
@@ -1263,10 +1333,20 @@
                 <p class="h2_desc text--desc description">Оставьте заявку и мы вам перезвоним в ближайшее время</p>
             </div>
             <div>
-                <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
+
+<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />    
+<input type='text' style='display:none;'  name='Last Name' value='_'/>
+<input type='text' style='display:none;'  name='LEADCF1' value='Магия'/>
+            
+<!--            <form  method="POST" class="form-inline db-form" action="javascript:void(null);"> -->
                     <!-- Hidden DB Fields -->
 
-                    <input type="hidden"  name="registrationType" value="magiya">
+<!--                    <input type="hidden"  name="registrationType" value="magiya">
                     <input type="hidden"  name="orderType" value="Zayavka_magiya">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -1283,7 +1363,7 @@
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>">
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
 
                     <!-- Zoho -->
                 <!--     <input type="hidden" name="product_id" value="1212">
@@ -1293,28 +1373,28 @@
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-                    <input type="hidden" name="project_name" value="Oyka">
+<!--                    <input type="hidden" name="project_name" value="Oyka">
                     <input type="hidden" name="admin_email" value="alien_202@mail.ru">
-                    <input type="hidden" name="form_type" value="popUp_magiya">
+                    <input type="hidden" name="form_type" value="popUp_magiya"> -->
                     <!-- END Hidden Required Fields -->
 
                     <span class="field">
-                        <input type="text" class="form-control" name="name" required=""  placeholder="Ваше имя " />
+                        <input type="text" class="form-control" name="First Name" required=""  placeholder="Ваше имя " />
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
                     <span class="field">
-                        <input type="email" required="" placeholder="Ваш E-Mail" name="email" class="form-control">
+                        <input type="email" required="" placeholder="Ваш E-Mail" name="Email" class="form-control">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
 
                     <span class="field">
-                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="custom_tel" required="">
+                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="Phone" required="">
                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
-                    <button type="submit" class="btn" name="send"><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
+                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
 
 
                     <div class="clear"></div>
@@ -1370,7 +1450,7 @@
             </div>
             <div class="md_content tl">
                 <p>Ваша конфиденциальность очень важна для нас. Мы хотим, чтобы Ваша работа в Интернет по возможности была максимально приятной и полезной, и Вы совершенно спокойно использовали широчайший спектр информации, инструментов и возможностей, которые предлагает Интернет.</p>
-                <p>Личная информация Членов, собранная при регистрации (или в любое другое время) преимущественно используется для подготовки Продуктов или Услуг в соответствии с Вашими потребностями. Ваша информация не будет передана или продана третьим сторонам. Однако мы можем частично раскрывать личную информацию в особых случаях, описанных в &laquo;Согласии с рассылкой&raquo;</p>
+                <p>Личная информация Членов, собранная при регистрации (или в любое другое время) преимущественно используется для подготовки Продуктов или Услуг в соответствии с Вашими потребностями. Ваша информация не будет передана или продана третьим сторонам. Однако мы можем частично раскрывать личную информацию в особых случаях, описанных в «Согласии с рассылкой»</p>
                 <p><strong>Какие данные собираются на сайте</strong></p>
                 <p>При добровольной регистрации на получение рассылки вы отправляете свое Имя и E-mail через форму регистрации.</p>
                 <p><strong>С какой целью собираются эти данные</strong></p>
@@ -1402,7 +1482,7 @@
                 <p>Ни при каких обстоятельствах Администрация Сайта не будет нести ответственности ни перед какой стороной за какой-либо прямой, непрямой, особый или иной косвенный ущерб в результате любого использования информации на этом Сайте или на любом другом сайте, на который имеется гиперссылка с нашего cайта, возникновение зависимости, снижения продуктивности, увольнения или прерывания трудовой активности, а равно и отчисления из учебных учреждений, за любую упущенную выгоду, приостановку хозяйственной деятельности, потерю программ или данных в Ваших информационных системах или иным образом, возникшие в связи с доступом, использованием или невозможностью использования Сайта, Содержимого или какого-либо связанного интернет-сайта, или неработоспособностью, ошибкой, упущением, перебоем, дефектом, простоем в работе или задержкой в передаче, компьютерным вирусом или системным сбоем, даже если администрация будет явно поставлена в известность о возможности такого ущерба.</p>
                 <p>Пользователь соглашается с тем, что все возможные споры будут разрешаться по нормам права.</p>
                 <p>Пользователь соглашается с тем, что нормы и законы о защите прав потребителей не могут быть применимы к использованию им Сайта, поскольку он не оказывает возмездных услуг.</p>
-                <p>Используя данный Сайт, Вы выражаете свое согласие с &laquo;Отказом от ответственности&raquo; и установленными Правилами и принимаете всю ответственность, которая может быть на Вас возложена.</p>
+                <p>Используя данный Сайт, Вы выражаете свое согласие с «Отказом от ответственности» и установленными Правилами и принимаете всю ответственность, которая может быть на Вас возложена.</p>
             </div>
         </div>
     </div>
@@ -1416,7 +1496,7 @@
                 <h2 class="text--title title tc">Согласие с рассылкой</h2>
             </div>
             <div class="md_content tl">
-                <p>Заполняя форму на нашем сайте &mdash; вы соглашаетесь с нашей политикой конфиденциальности. Также вы соглашаетесь с тем, что мы имеем право разглашать ваши личные данные в следующих случаях:</p>
+                <p>Заполняя форму на нашем сайте — вы соглашаетесь с нашей политикой конфиденциальности. Также вы соглашаетесь с тем, что мы имеем право разглашать ваши личные данные в следующих случаях:</p>
                 <p><strong>1) С Вашего согласия:</strong>&nbsp;Во всех остальных случаях перед передачей информации о Вас третьим сторонам наша Компания обязуется получить Ваше явное согласие. Например, наша Компания может реализовывать совместное предложение или конкурс с третьей стороной, тогда мы попросим у Вас разрешение на совместное использование Вашей личной информации с третьей стороной.</p>
                 <p><strong>2) Компаниям, работающим от нашего лица:</strong>&nbsp;Мы сотрудничаем с другими компаниями, выполняющими от нашего лица функции бизнес поддержки, в связи с чем Ваша личная информация может быть частично раскрыта. Мы требуем, чтобы такие компании использовали информацию только в целях предоставления услуг по договору; им запрещается передавать данную информацию другим сторонам в ситуациях, отличных от случаев, когда это вызвано необходимостью предоставления оговоренных услуг. Примеры функций бизнес поддержки: выполнение заказов, реализация заявок, выдача призов и бонусов, проведение опросов среди клиентов и управление информационными системами. Мы также раскрываем обобщенную неперсонифицированную информацию при выборе поставщиков услуг.</p>
                 <p><strong>3) Дочерним и совместным предприятиям:</strong>&nbsp;Под дочерним или совместным предприятием понимается организация, не менее 50% долевого участия которой принадлежит Компании. При передаче Вашей информации партнеру по дочернему или совместному предприятию наша Компания требует не разглашать данную информацию другим сторонам в маркетинговых целях и не использовать Вашу информацию каким-либо путем, противоречащим Вашему выбору. Если Вы указали, что не хотите получать от нашей Компании какие-либо маркетинговые материалы, то мы не будем передавать Вашу информацию своим партнерам по дочерним и совместным предприятиям для маркетинговых целей.</p>
@@ -1461,10 +1541,18 @@
 
     <!-- Load Scripts Start -->
     <script>var scr = {"scripts":[
-        {"src" : "http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU", "async" : false},
+        // {"src" : "http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU", "async" : false},
         {"src" : "js/libs.js", "async" : false},
         {"src" : "js/common.js", "async" : false}
         ]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+    </script>
+
+    <script type="text/javascript">
+    (function(d, w, s) {
+    var widgetHash = '4183gc277tj5bwanrlth', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;
+    gcw.src = '//widgets.binotel.com/getcall/widgets/'+ widgetHash +'.js';
+    var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(gcw, sn);
+    })(document, window, 'script');
     </script>
     <!-- Load Scripts End -->
 
