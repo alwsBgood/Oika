@@ -168,6 +168,8 @@ $(function() {
   $(".youtube").each(function() {
     $(this).css('background-image', 'url(http://i.ytimg.com/vi_webp/' + this.id + '/hqdefault.webp)');
 
+    $("#sec_04 .youtube").css('background-image', 'url(http://i.ytimg.com/vi/ABBD3QE3RDI/sddefault.jpg)');
+
     // $(this).append($('<div/>', {'class': 'play'}));
 
     $(document).delegate('#'+this.id, 'click', function() {

@@ -90,7 +90,7 @@
         <div class="phones_block_menu">
             <a class="call_back md-trigger" data-modal="modal_callback"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42"><defs><style>.cls-cb-1{fill:#e9274f;}.cls-cb-2{fill:#ff2a56;}.cls-cba-1{fill:#3bb6f8;fill-rule:evenodd;}</style></defs><path class="cls-cb-1" d="M28.8 4.5s-25.2-8.3-28.5 14.4 18.1 24.1 25.2 22.8 16.3-14.5 16.4-20.4S39 7.9 28.8 4.5Z"/><path class="cls-cb-2" d="M28.8 1.5s-25.2-8.3-28.5 14.4 18.1 24.1 25.2 22.8 16.3-14.5 16.4-20.4S39 4.9 28.8 1.5Z"/><path class="cls-cba-1" d="M163.35,152s-25.24-8.27-28.5,14.39,18.09,24.12,25.21,22.78,16.28-14.51,16.44-20.39S173.47,155.43,163.35,152Z" transform="translate(-134.51 -150.5)"/></svg><span><img src="img/phone.png" alt=""></span></a>
 
-            <a href="tel:+380987656587" class="tel">+380 (98) 765-65-87</a>
+            <a href="tel:+380981629007" class="tel">+380 (98) 162-90-07</a>
             <div class="clear"></div>
         </div>
         <ul class="social">
@@ -107,7 +107,7 @@
                 <img src="img/logo.png" alt="Ойка" class="logo">
 
                 <div class="phones_block">
-                    <a href="tel:+380987656587" class="tel">+380 (98) 765-65-87</a>
+                    <a href="tel:+380981629007" class="tel">+380 (98) 162-90-07</a>
 
                     <a class="call_back md-trigger" data-modal="modal_callback"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42"><defs><style>.cls-cb-1{fill:#e9274f;}.cls-cb-2{fill:#ff2a56;}.cls-cba-1{fill:#3bb6f8;fill-rule:evenodd;}</style></defs><path class="cls-cb-1" d="M28.8 4.5s-25.2-8.3-28.5 14.4 18.1 24.1 25.2 22.8 16.3-14.5 16.4-20.4S39 7.9 28.8 4.5Z"/><path class="cls-cb-2" d="M28.8 1.5s-25.2-8.3-28.5 14.4 18.1 24.1 25.2 22.8 16.3-14.5 16.4-20.4S39 4.9 28.8 1.5Z"/><path class="cls-cba-1" d="M163.35,152s-25.24-8.27-28.5,14.39,18.09,24.12,25.21,22.78,16.28-14.51,16.44-20.39S173.47,155.43,163.35,152Z" transform="translate(-134.51 -150.5)"/></svg><span><img src="img/phone.png" alt=""></span></a>
                     <div class="clear"></div>
@@ -146,7 +146,7 @@
             <div class="col-12 tc">
                 <h2 id="sec_02_anch" class="text--title header">Получите <br> индивидуальную консультацию </h2>
                 <p class="description text--desc">и узнайте, какой праздник мы можем <br> организовать для вашего ребенка</p>
-               
+
 <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
 <input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
 <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
@@ -304,10 +304,10 @@
             <div class="col-5 slider_col">
                 <div class="slider_05">
                     <div class="slide">
-                        <img src="img/sec_05-img-1.png" alt="Image">
+                        <img src="img/sec_05-img-2.png" alt="Image">
                     </div>
                     <div class="slide">
-                        <img src="img/sec_05-img-2.png" alt="Image">
+                        <img src="img/sec_05-img-1.png" alt="Image">
                     </div>
                     <div class="slide">
                         <img src="img/sec_05-img-3.png" alt="Image">
@@ -736,6 +736,32 @@
                     </div>
                 </div>
             </div>
+
+            <div class="slide clearfix">
+                <div class="col-6">
+                    <img src="img/testiomonial-1.png" alt="">
+                </div>
+                <div class="col-6">
+                    <div class="item">
+                        <p class="name text--title">Александра Говоруха</p>
+                        <div class="dialog flex"><p class="text">Я впервые доверила празднование детского ДР профессионалам. Было все: красиво украшенный стол, танцы и игры, аниматоры в образах любимых героев. Спасибо, Вера Стеценко, за твой бизнес, который сделал сегодня счастливым 7 детей и как минимум 1 маму.</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide clearfix">
+                <div class="col-6">
+                    <img src="img/testiomonial-2.png" alt="">
+                </div>
+                <div class="col-6">
+                    <div class="item">
+                        <p class="name text--title">Константин Магалецкий</p>
+                        <div class="dialog flex"><p class="text">Детский праздник - просто супер! Всем советую! " Мне 75 лет и это лучший день рождения на котором я была"- сказала моя Мама :)</p></div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 </div>
@@ -946,7 +972,7 @@
                 <img src="img/logo.png" alt="Ойка" class="logo">
 
                 <div class="phones_block">
-                    <a href="tel:+380987656587" class="tel">+380 (98) 765-65-87</a>
+                    <a href="tel:+380981629007" class="tel">+380 (98) 162-90-07</a>
 
                     <a class="call_back md-trigger" data-modal="modal_callback"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42"><defs><style>.cls-cb-1{fill:#e9274f;}.cls-cb-2{fill:#ff2a56;}.cls-cba-1{fill:#3bb6f8;fill-rule:evenodd;}</style></defs><path class="cls-cb-1" d="M28.8 4.5s-25.2-8.3-28.5 14.4 18.1 24.1 25.2 22.8 16.3-14.5 16.4-20.4S39 7.9 28.8 4.5Z"/><path class="cls-cb-2" d="M28.8 1.5s-25.2-8.3-28.5 14.4 18.1 24.1 25.2 22.8 16.3-14.5 16.4-20.4S39 4.9 28.8 1.5Z"/><path class="cls-cba-1" d="M163.35,152s-25.24-8.27-28.5,14.39,18.09,24.12,25.21,22.78,16.28-14.51,16.44-20.39S173.47,155.43,163.35,152Z" transform="translate(-134.51 -150.5)"/></svg><span><img src="img/phone.png" alt=""></span></a>
                     <div class="clear"></div>
@@ -1420,21 +1446,26 @@
             </div>
 
             <div class="md_content">
-                <a href="img/big/1.png" data-lightbox="set-gallery-2"><img src="img/img-1.png" alt=""></a>
-                <a href="img/big/2.png" data-lightbox="set-gallery-2"><img src="img/img-2.png" alt=""></a>
-                <a href="img/big/3.png" data-lightbox="set-gallery-2"><img src="img/img-3.png" alt=""></a>
-                <a href="img/big/4.png" data-lightbox="set-gallery-2"><img src="img/img-4.png" alt=""></a>
-                <a href="img/big/5.png" data-lightbox="set-gallery-2"><img src="img/img-5.png" alt=""></a>
-                <a href="img/big/6.png" data-lightbox="set-gallery-2"><img src="img/img-6.png" alt=""></a>
-                <a href="img/big/7.png" data-lightbox="set-gallery-2"><img src="img/img-7.png" alt=""></a>
-                <a href="img/big/8.png" data-lightbox="set-gallery-2"><img src="img/img-8.png" alt=""></a>
-                <a href="img/big/9.png" data-lightbox="set-gallery-2"><img src="img/img-9.png" alt=""></a>
-                <a href="img/big/10.png" data-lightbox="set-gallery-2"><img src="img/img-10.png" alt=""></a>
-                <a href="img/big/11.png" data-lightbox="set-gallery-2"><img src="img/img-11.png" alt=""></a>
-                <a href="img/big/12.png" data-lightbox="set-gallery-2"><img src="img/img-12.png" alt=""></a>
-                <a href="img/big/13.png" data-lightbox="set-gallery-2"><img src="img/img-14.png" alt=""></a>
-                <a href="img/big/15.png" data-lightbox="set-gallery-2"><img src="img/img-15.png" alt=""></a>
-                <a href="img/big/16.png" data-lightbox="set-gallery-2"><img src="img/img-16.png" alt=""></a>
+                <a href="img/gallery/big/1.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-1.png" alt=""></a>
+                <a href="img/gallery/big/2.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-2.png" alt=""></a>
+                <a href="img/gallery/big/3.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-3.png" alt=""></a>
+                <a href="img/gallery/big/4.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-4.png" alt=""></a>
+                <a href="img/gallery/big/5.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-5.png" alt=""></a>
+                <a href="img/gallery/big/6.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-6.png" alt=""></a>
+                <a href="img/gallery/big/7.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-7.png" alt=""></a>
+                <a href="img/gallery/big/8.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-8.png" alt=""></a>
+                <a href="img/gallery/big/9.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-9.png" alt=""></a>
+                <a href="img/gallery/big/10.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-10.png" alt=""></a>
+                <a href="img/gallery/big/11.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-11.png" alt=""></a>
+                <a href="img/gallery/big/12.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-12.png" alt=""></a>
+                <a href="img/gallery/big/13.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-14.png" alt=""></a>
+                <a href="img/gallery/big/15.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-15.png" alt=""></a>
+                <a href="img/gallery/big/16.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-16.png" alt=""></a>
+                <a href="img/gallery/big/17.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-17.png" alt=""></a>
+                <a href="img/gallery/big/18.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-18.png" alt=""></a>
+                <a href="img/gallery/big/19.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-19.png" alt=""></a>
+                <a href="img/gallery/big/20.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-20.png" alt=""></a>
+                <a href="img/gallery/big/21.jpg" data-lightbox="set-gallery-2"><img src="img/gallery/img-21.png" alt=""></a>
             </div>
         </div>
     </div>
