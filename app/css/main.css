@@ -2,6 +2,24 @@
 @import url(../libs/niftymodal/component.css);
 @import url(../libs/slick/slick.min.css);
 @import url(../libs/lightbox2/lightbox.min.css);
+.youtube-1 {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(../img/youtube-1.png) !important; }
+
+.youtube-2 {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(../img/youtube-2.png) !important; }
+
+.youtube-3 {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(../img/youtube-3.png) !important; }
+
 #sec_02, #sec_13 {
   position: relative;
   background-image: url(../img/sec_02-bg.png); }
@@ -451,6 +469,9 @@
     margin-top: 0px; }
   #sec_11 .slick-dots {
     bottom: -60px; }
+  #sec_11 img {
+    width: 100%;
+    max-width: 556px; }
   #sec_11 .youtube {
     cursor: pointer;
     position: relative;
@@ -1152,7 +1173,7 @@ div[id*="modal_politics"] {
       display: none; }
   #sec_11 .slider_11 .col-6 {
     width: 100%; }
-  #sec_11 .slider_11 .youtube, #sec_11 .slider_11 iframe {
+  #sec_11 .slider_11 .youtube, #sec_11 .slider_11 iframe, #sec_11 .slider_11 img {
     display: block;
     width: 100%;
     max-width: 556px;
@@ -1445,7 +1466,7 @@ div[id*="modal_politics"] {
       display: none; }
   #sec_11 .slider_11 .col-6 {
     width: 100%; }
-  #sec_11 .slider_11 .youtube, #sec_11 .slider_11 iframe {
+  #sec_11 .slider_11 .youtube, #sec_11 .slider_11 iframe, #sec_11 .slider_11 img {
     display: block;
     width: 100%;
     max-width: 556px;

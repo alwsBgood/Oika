@@ -4,7 +4,26 @@
 //Custom Styles Here
 
 
+.youtube-1{
+  display: block;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(../img/youtube-1.png) !important;
+}
 
+.youtube-2{
+  display: block;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(../img/youtube-2.png) !important;
+}
+
+.youtube-3{
+  display: block;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(../img/youtube-3.png) !important;
+}
 
 
 #sec_02, #sec_13{
@@ -529,7 +548,10 @@
   .slick-dots{
     bottom: -60px;
   }
-
+  img{
+    width: 100%;
+    max-width: 556px;
+  }
   .youtube{
     cursor: pointer;
     position: relative;
