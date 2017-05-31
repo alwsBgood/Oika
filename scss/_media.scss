@@ -141,6 +141,9 @@
       background: none;
       min-height: 120px;
     }
+    .facebook{
+      float: left;
+    }
   }
 
   #sec_12{
@@ -272,6 +275,7 @@
       background: none;
       border: 1px dashed #fff;
       border-radius: 20px;
+      margin-bottom: 15px;
     }
   }
 
@@ -487,6 +491,9 @@
       background: none;
       min-height: 120px;
     }
+    .facebook{
+      float: left;
+    }
   }
 
   #sec_12{
@@ -624,6 +631,7 @@
   #sec_11{
     .name, .dialog{margin-left: 0}
     .dialog{padding: 0;}
+    .facebook{margin-left: 0;}
 
     .slider_11{
       .youtube:before{display:none}

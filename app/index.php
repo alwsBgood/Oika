@@ -147,19 +147,10 @@
                 <h2 id="sec_02_anch" class="text--title header">Получите <br> индивидуальную консультацию </h2>
                 <p class="description text--desc">и узнайте, какой праздник мы можем <br> организовать для вашего ребенка</p>
 
-<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
-<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
-<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
-<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
-<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />   
-<input type='text' style='display:none;'  name='Last Name' value='_'/>
-<input type='text' style='display:none;'  name='LEADCF1' value='Получите индивидуальную консультацию'/>
-
-<!--               <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
+                <form  method="POST"  name=WebToLeads2437335000000606067 class="form-inline db-form" action="javascript:void(null); return checkMandatory()" accept-charset='UTF-8'>
 
                     <!-- Hidden DB Fields -->
-<!--                     <input type="hidden"  name="registrationType" value="default_registration">
+                    <input type="hidden"  name="registrationType" value="default_registration">
                     <input type="hidden"  name="orderType" value="Zayavka_consult">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -171,24 +162,30 @@
                     <input type="hidden" name="ref" value="<?php echo $data['ref']; ?>">
                     <input type="hidden" name="ip_address" value="<?php echo $data['ip_address']; ?>">
                     <input type="hidden" name="city" value="">
+                    <input type="hidden" name="name" value="">
                     <input type="hidden" name="client_id" value="<?php echo $data['client_id']; ?>">
                     <input type="hidden" name="utmcsr" value="<?php echo $data['utmcsr']; ?>">
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>">
 
                     <!-- Zoho -->
-                <!--     <input type="hidden" name="product_id" value="2167809000000656177">
-                    <input type="hidden" name="product_name" value="&laquo;BootCamp 2&raquo;"> -->
+                    <input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+                    <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                    <input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+                    <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+                    
+                    <input type='text' style='display:none;'  name='Last Name' value='_'/>
+                    <input type='text' style='display:none;'  name='LEADCF1' value='Получите индивидуальную консультацию'/>
                     <!-- Zoho -->
 
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-<!--                    <input type="hidden" name="project_name" value="Oyka">
+                   <input type="hidden" name="project_name" value="Oyka">
                     <input type="hidden" name="admin_email" value="alien_202@mail.ru">
-                    <input type="hidden" name="form_type" value="firstForm_consult">  -->
+                    <input type="hidden" name="form_type" value="firstForm_consult"> 
                     <!-- END Hidden Required Fields -->
 
                     <span class="field">
@@ -208,7 +205,7 @@
                     </span> -->
 
 
-                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
+                    <button name="send" type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
 
                     <div class="clear"></div>
                 </form>
@@ -598,19 +595,11 @@
         <div class="row">
             <div class="col-12">
 
-<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
-<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
-<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
-<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
-<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />
-<input type='text' style='display:none;'  name='Last Name' value='_'/>
-<input type='text' style='display:none;'  name='LEADCF1' value='Заявка на любую программу - Световая открыточка в подарок!'/>
 
-<!--            <form  method="POST" class="form-inline db-form" action="javascript:void(null);"> -->
+            <form  method="POST"  name=WebToLeads2437335000000606067 class="form-inline db-form" action="javascript:void(null); return checkMandatory()" accept-charset='UTF-8'>
 
                     <!-- Hidden DB Fields -->
-<!--                    <input type="hidden"  name="registrationType" value="default_registration">
+                    <input type="hidden"  name="registrationType" value="default_registration">
                     <input type="hidden"  name="orderType" value="Zayavka">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -622,24 +611,30 @@
                     <input type="hidden" name="ref" value="<?php echo $data['ref']; ?>">
                     <input type="hidden" name="ip_address" value="<?php echo $data['ip_address']; ?>">
                     <input type="hidden" name="city" value="">
+                    <input type="hidden" name="name" value="">
                     <input type="hidden" name="client_id" value="<?php echo $data['client_id']; ?>">
                     <input type="hidden" name="utmcsr" value="<?php echo $data['utmcsr']; ?>">
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> 
 
                     <!-- Zoho -->
-                <!--     <input type="hidden" name="product_id" value="2167809000000656177">
-                    <input type="hidden" name="product_name" value="&laquo;BootCamp 2&raquo;"> -->
+                    <input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+                    <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                    <input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+                    <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+                    
+                    <input type='text' style='display:none;'  name='Last Name' value='_'/>
+                    <input type='text' style='display:none;'  name='LEADCF1' value='Заявка на любую программу - Световая открыточка в подарок!'/>
                     <!-- Zoho -->
 
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-<!--                     <input type="hidden" name="project_name" value="Oyka">
+                     <input type="hidden" name="project_name" value="Oyka">
                     <input type="hidden" name="admin_email" value="alien_202@mail.ru">
-                    <input type="hidden" name="form_type" value="secondForm_present"> -->
+                    <input type="hidden" name="form_type" value="secondForm_present"> 
                     <!-- END Hidden Required Fields -->
 
                     <span class="field">
@@ -659,7 +654,7 @@
                     </span>
 
 
-                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
+                    <button name="send" type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
 
                     <div class="clear"></div>
                 </form>
@@ -739,29 +734,33 @@
 
             <div class="slide clearfix">
                 <div class="col-6">
-                    <img src="img/testiomonial-1.png" alt="">
+                    <img src="img/testiomonial-2.png" alt="">
                 </div>
                 <div class="col-6">
                     <div class="item">
-                        <p class="name text--title">Александра Говоруха</p>
-                        <div class="dialog flex"><p class="text">Я впервые доверила празднование детского ДР профессионалам. Было все: красиво украшенный стол, танцы и игры, аниматоры в образах любимых героев. Спасибо, Вера Стеценко, за твой бизнес, который сделал сегодня счастливым 7 детей и как минимум 1 маму.</p></div>
+                        <p class="name text--title">Константин Магалецкий</p>
+                        <div class="dialog flex">
+                            <p class="text">Детский праздник - просто супер! Всем советую! " Мне 75 лет и это лучший день рождения на котором я была"- сказала моя Мама :)</p>
+                        </div>
+                        <a target="_blank" href="https://www.facebook.com/konstantin.luganskiy?fref=ts" class="facebook">Facebook</a>
                     </div>
                 </div>
             </div>
 
             <div class="slide clearfix">
                 <div class="col-6">
-                    <img src="img/testiomonial-2.png" alt="">
+                    <img src="img/testiomonial-1.png" alt="">
                 </div>
                 <div class="col-6">
                     <div class="item">
-                        <p class="name text--title">Константин Магалецкий</p>
-                        <div class="dialog flex"><p class="text">Детский праздник - просто супер! Всем советую! " Мне 75 лет и это лучший день рождения на котором я была"- сказала моя Мама :)</p></div>
+                        <p class="name text--title">Александра Говоруха</p>
+                        <div class="dialog flex">
+                            <p class="text">Я впервые доверила празднование детского ДР профессионалам. Было все: красиво украшенный стол, танцы и игры, аниматоры в образах любимых героев. Спасибо, Вера Стеценко, за твой бизнес, который сделал сегодня счастливым 7 детей и как минимум 1 маму.</p>
+                        </div>
+                        <a target="_blank" href="https://www.facebook.com/Alexa.govoruha?fref=ts" class="facebook">Facebook</a>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 </div>
@@ -878,24 +877,12 @@
         </div>
         <div class="row">
             <div class="col-12 tc">
-            
-<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000630115 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
-
-     <!-- Do not remove this code. -->
-    <input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
-    <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-    <input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e229341782f1f3e430da412d928247fa3a7cf0'/>
-    <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
-
-    <input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />  
-<input type='text' style='display:none;'  name='Last Name' value='_'/>
-<input type='text' style='display:none;'  name='LEADCF1' value='Задать вопрос'/>
 
 
-<!--                <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
+               <form  method="POST"  name=WebToLeads2437335000000630115 class="form-inline db-form" action="javascript:void(null); return checkMandatory()" accept-charset='UTF-8'>
 
                     <!-- Hidden DB Fields -->
- <!--                   <input type="hidden"  name="registrationType" value="default_registration">
+                    <input type="hidden"  name="registrationType" value="default_registration">
                     <input type="hidden"  name="orderType" value="Vopros">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -907,24 +894,29 @@
                     <input type="hidden" name="ref" value="<?php echo $data['ref']; ?>">
                     <input type="hidden" name="ip_address" value="<?php echo $data['ip_address']; ?>">
                     <input type="hidden" name="city" value="">
+                    <input type="hidden" name="name" value="">
                     <input type="hidden" name="client_id" value="<?php echo $data['client_id']; ?>">
                     <input type="hidden" name="utmcsr" value="<?php echo $data['utmcsr']; ?>">
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> 
 
                     <!-- Zoho -->
-                <!--     <input type="hidden" name="product_id" value="2167809000000656177">
-                    <input type="hidden" name="product_name" value="&laquo;BootCamp 2&raquo;"> -->
+                    <input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+                    <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                    <input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e229341782f1f3e430da412d928247fa3a7cf0'/>
+                    <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+                    <input type='text' style='display:none;'  name='Last Name' value='_'/>
+                    <input type='text' style='display:none;'  name='LEADCF1' value='Задать вопрос'/>
                     <!-- Zoho -->
 
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-<!--                     <input type="hidden" name="project_name" value="Oyka">
+                     <input type="hidden" name="project_name" value="Oyka">
                     <input type="hidden" name="admin_email" value="alien_202@mail.ru">
-                    <input type="hidden" name="form_type" value="questionForm"> -->
+                    <input type="hidden" name="form_type" value="questionForm"> 
                     <!-- END Hidden Required Fields -->
 
                     <span class="field">
@@ -949,7 +941,7 @@
                     </span>
 
 
-                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Задать вопрос</span></button>
+                    <button name="send" type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Задать вопрос</span></button>
 
                     <div class="clear"></div>
                 </form>
@@ -1022,19 +1014,11 @@
             </div>
             <div>
 
-<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
-<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
-<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
-<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
-<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />     
-<input type='text' style='display:none;'  name='Last Name' value='_'/>
-<input type='text' style='display:none;'  name='LEADCF1' value='Обратный звонок'/>
 
-<!--            <form  method="POST" class="form-inline db-form" action="javascript:void(null);"> -->
+                <form  method="POST"  name=WebToLeads2437335000000606067 class="form-inline db-form" action="javascript:void(null); return checkMandatory()" accept-charset='UTF-8'>
                     <!-- Hidden DB Fields -->
 
-<!--                    <input type="hidden"  name="registrationType" value="default_registration">
+                    <input type="hidden"  name="registrationType" value="default_registration">
                     <input type="hidden"  name="orderType" value="CallBack">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -1046,24 +1030,29 @@
                     <input type="hidden" name="ref" value="<?php echo $data['ref']; ?>">
                     <input type="hidden" name="ip_address" value="<?php echo $data['ip_address']; ?>">
                     <input type="hidden" name="city" value="">
+                    <input type="hidden" name="name" value="">
                     <input type="hidden" name="client_id" value="<?php echo $data['client_id']; ?>">
                     <input type="hidden" name="utmcsr" value="<?php echo $data['utmcsr']; ?>">
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> 
 
                     <!-- Zoho -->
-                <!--     <input type="hidden" name="product_id" value="1212">
-                    <input type="hidden" name="product_name" value="&laquo;BootCamp 2&raquo;"> -->
+                    <input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+                    <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                    <input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+                    <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+
+                    <input type='text' style='display:none;'  name='Last Name' value='_'/>
+                    <input type='text' style='display:none;'  name='LEADCF1' value='Обратный звонок'/>
                     <!-- Zoho -->
 
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
- <!--                   <input type="hidden" name="project_name" value="Oyka">
-                    <input type="hidden" name="admin_email" value="alien_202@mail.ru"> -->
-                    
+                    <input type="hidden" name="project_name" value="Oyka">
+                    <input type="hidden" name="admin_email" value="alien_202@mail.ru"> 
                     <input type="hidden" name="form_type" value="popUp_callback">
                     <!-- END Hidden Required Fields -->
 
@@ -1078,7 +1067,7 @@
                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
-                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
+                    <button name="send" type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
 
 
                     <div class="clear"></div>
@@ -1103,20 +1092,11 @@
                 <p class="h2_desc text--desc description">Оставьте заявку и мы вам перезвоним в ближайшее время</p>
             </div>
             <div>
-            
-<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
-<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
-<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
-<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
-<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />    
-<input type='text' style='display:none;'  name='Last Name' value='_'/>
-<input type='text' style='display:none;'  name='LEADCF1' value='Заявка на консультацию'/>           
 
-<!--            <form  method="POST" class="form-inline db-form" action="javascript:void(null);"> -->
+                <form  method="POST"  name=WebToLeads2437335000000606067 class="form-inline db-form" action="javascript:void(null); return checkMandatory()" accept-charset='UTF-8'>
                     <!-- Hidden DB Fields -->
 
-<!--                    <input type="hidden"  name="registrationType" value="default_registration">
+                    <input type="hidden"  name="registrationType" value="default_registration">
                     <input type="hidden"  name="orderType" value="Zayavka_consult">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -1128,24 +1108,29 @@
                     <input type="hidden" name="ref" value="<?php echo $data['ref']; ?>">
                     <input type="hidden" name="ip_address" value="<?php echo $data['ip_address']; ?>">
                     <input type="hidden" name="city" value="">
+                    <input type="hidden" name="name" value="">
                     <input type="hidden" name="client_id" value="<?php echo $data['client_id']; ?>">
                     <input type="hidden" name="utmcsr" value="<?php echo $data['utmcsr']; ?>">
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> 
 
                     <!-- Zoho -->
-                <!--     <input type="hidden" name="product_id" value="1212">
-                    <input type="hidden" name="product_name" value="&laquo;BootCamp 2&raquo;"> -->
+                    <input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+                    <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                    <input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+                    <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+
+                    <input type='text' style='display:none;'  name='Last Name' value='_'/>
+                    <input type='text' style='display:none;'  name='LEADCF1' value='Заявка на консультацию'/>
                     <!-- Zoho -->
 
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-<!--                    <input type="hidden" name="project_name" value="Oyka">
-                    <input type="hidden" name="admin_email" value="alien_202@mail.ru"> -->
-                    
+                    <input type="hidden" name="project_name" value="Oyka">
+                    <input type="hidden" name="admin_email" value="alien_202@mail.ru"> 
                     <input type="hidden" name="form_type" value="popUp_consult">
                     <!-- END Hidden Required Fields -->
 
@@ -1160,7 +1145,7 @@
                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
-                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
+                    <button name="send" type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
 
 
                     <div class="clear"></div>
@@ -1185,20 +1170,11 @@
                 <p class="h2_desc text--desc description">Оставьте заявку и мы вам перезвоним в ближайшее время</p>
             </div>
             <div>
-                
-<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
-<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
-<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
-<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
-<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />    
-<input type='text' style='display:none;'  name='Last Name' value='_'/>
-<input type='text' style='display:none;'  name='LEADCF1' value='Забава - 4850грн.'/>                            
-                
-<!--                <form  method="POST" class="form-inline db-form" action="javascript:void(null);"> -->
-                    <!-- Hidden DB Fields -->
 
-<!--                     <input type="hidden"  name="registrationType" value="zabava">
+
+                <form  method="POST"  name=WebToLeads2437335000000606067 class="form-inline db-form" action="javascript:void(null); return checkMandatory()" accept-charset='UTF-8'>
+
+                     <input type="hidden"  name="registrationType" value="zabava">
                     <input type="hidden"  name="orderType" value="Zayavka_zabava">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -1210,23 +1186,29 @@
                     <input type="hidden" name="ref" value="<?php echo $data['ref']; ?>">
                     <input type="hidden" name="ip_address" value="<?php echo $data['ip_address']; ?>">
                     <input type="hidden" name="city" value="">
+                    <input type="hidden" name="name" value="">
                     <input type="hidden" name="client_id" value="<?php echo $data['client_id']; ?>">
                     <input type="hidden" name="utmcsr" value="<?php echo $data['utmcsr']; ?>">
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> 
 
                     <!-- Zoho -->
-                <!--     <input type="hidden" name="product_id" value="1212">
-                    <input type="hidden" name="product_name" value="&laquo;BootCamp 2&raquo;"> -->
+                     <input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+                     <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                     <input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+                     <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+
+                     <input type='text' style='display:none;'  name='Last Name' value='_'/>
+                     <input type='text' style='display:none;'  name='LEADCF1' value='Забава - 4850грн.'/>  
                     <!-- Zoho -->
 
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-<!--                     <input type="hidden" name="project_name" value="Oyka">
-                    <input type="hidden" name="admin_email" value="alien_202@mail.ru"> -->
+                     <input type="hidden" name="project_name" value="Oyka">
+                    <input type="hidden" name="admin_email" value="alien_202@mail.ru"> 
                     
                     <input type="hidden" name="form_type" value="popUp_zabava ">
                     <!-- END Hidden Required Fields -->
@@ -1247,7 +1229,7 @@
                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
-                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
+                    <button name="send" type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
 
 
                     <div class="clear"></div>
@@ -1272,20 +1254,12 @@
                 <p class="h2_desc text--desc description">Оставьте заявку и мы вам перезвоним в ближайшее время</p>
             </div>
             <div>
+
  
-<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
-<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
-<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
-<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
-<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />   
-<input type='text' style='display:none;'  name='Last Name' value='_'/>
-<input type='text' style='display:none;'  name='LEADCF1' value='Сказка - 8750грн.'/> 
- 
-<!-- <form  method="POST" class="form-inline db-form" action="javascript:void(null);"> -->
+                <form  method="POST"  name=WebToLeads2437335000000606067 class="form-inline db-form" action="javascript:void(null); return checkMandatory()" accept-charset='UTF-8'>
                     <!-- Hidden DB Fields -->
 
-<!--                    <input type="hidden"  name="registrationType" value="skazka">
+                    <input type="hidden"  name="registrationType" value="skazka">
                     <input type="hidden"  name="orderType" value="Zayavka_skazka">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -1297,24 +1271,29 @@
                     <input type="hidden" name="ref" value="<?php echo $data['ref']; ?>">
                     <input type="hidden" name="ip_address" value="<?php echo $data['ip_address']; ?>">
                     <input type="hidden" name="city" value="">
+                    <input type="hidden" name="name" value="">
                     <input type="hidden" name="client_id" value="<?php echo $data['client_id']; ?>">
                     <input type="hidden" name="utmcsr" value="<?php echo $data['utmcsr']; ?>">
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> 
 
                     <!-- Zoho -->
-                <!--     <input type="hidden" name="product_id" value="1212">
-                    <input type="hidden" name="product_name" value="&laquo;BootCamp 2&raquo;"> -->
+                    <input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+                    <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                    <input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+                    <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+
+                    <input type='text' style='display:none;'  name='Last Name' value='_'/>
+                    <input type='text' style='display:none;'  name='LEADCF1' value='Сказка - 8750грн.'/> 
                     <!-- Zoho -->
 
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-<!--                    <input type="hidden" name="project_name" value="Oyka">
-                    <input type="hidden" name="admin_email" value="alien_202@mail.ru"> -->
-                    
+                    <input type="hidden" name="project_name" value="Oyka">
+                    <input type="hidden" name="admin_email" value="alien_202@mail.ru"> 
                     <input type="hidden" name="form_type" value="popUp_skazka">
                     <!-- END Hidden Required Fields -->
 
@@ -1360,19 +1339,10 @@
             </div>
             <div>
 
-<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2437335000000606067 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
-<input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
-<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-<input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
-<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
-<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;oyka.com.ua&#x2f;lp&#x2f;success&#x2f;' />    
-<input type='text' style='display:none;'  name='Last Name' value='_'/>
-<input type='text' style='display:none;'  name='LEADCF1' value='Магия'/>
-            
-<!--            <form  method="POST" class="form-inline db-form" action="javascript:void(null);"> -->
+                <form  method="POST"  name=WebToLeads2437335000000606067 class="form-inline db-form" action="javascript:void(null); return checkMandatory()" accept-charset='UTF-8'>
                     <!-- Hidden DB Fields -->
 
-<!--                    <input type="hidden"  name="registrationType" value="magiya">
+                    <input type="hidden"  name="registrationType" value="magiya">
                     <input type="hidden"  name="orderType" value="Zayavka_magiya">
                     <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
                     <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
@@ -1384,24 +1354,30 @@
                     <input type="hidden" name="ref" value="<?php echo $data['ref']; ?>">
                     <input type="hidden" name="ip_address" value="<?php echo $data['ip_address']; ?>">
                     <input type="hidden" name="city" value="">
+                    <input type="hidden" name="name" value="">
                     <input type="hidden" name="client_id" value="<?php echo $data['client_id']; ?>">
                     <input type="hidden" name="utmcsr" value="<?php echo $data['utmcsr']; ?>">
                     <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
                     <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
                     <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> -->
+                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>"> 
 
                     <!-- Zoho -->
-                <!--     <input type="hidden" name="product_id" value="1212">
-                    <input type="hidden" name="product_name" value="&laquo;BootCamp 2&raquo;"> -->
+                    <input type='text' style='display:none;' name='xnQsjsdp' value='35bdf9c4d51215ec6bdd977bcc1b854ff69d926894f09a1a3a725aa0016e4fd8'/>
+                    <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                    <input type='text' style='display:none;' name='xmIwtLD' value='cfbe9d007ebae16767227dd644e22934ae2c1c34a1198c47470478e0ed337758'/>
+                    <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+
+                    <input type='text' style='display:none;'  name='Last Name' value='_'/>
+                    <input type='text' style='display:none;'  name='LEADCF1' value='Магия'/>
                     <!-- Zoho -->
 
                     <!-- END Hidden DB Fields -->
 
                     <!-- Hidden Required Fields -->
-<!--                    <input type="hidden" name="project_name" value="Oyka">
+                    <input type="hidden" name="project_name" value="Oyka">
                     <input type="hidden" name="admin_email" value="alien_202@mail.ru">
-                    <input type="hidden" name="form_type" value="popUp_magiya"> -->
+                    <input type="hidden" name="form_type" value="popUp_magiya"> 
                     <!-- END Hidden Required Fields -->
 
                     <span class="field">
@@ -1420,7 +1396,7 @@
                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.99 53"><defs><style>.cls-in-1{fill:none;stroke-miterlimit:10;fill-rule:evenodd;}</style></defs><path class="cls-in-1" d="M297.12,688.5s-52.23-.07-48.42,29.16c2.89,22.21,36.8,24.56,57.18,22,14.54-1.81,62.66-7.33,96-4.38,33.82,3,91.74,4.46,109.18.49s29-8.83,29.44-18.53c-.23-13.66-9.33-29.31-59.56-27.11s-48.21,3.48-110.19,1.2C343.81,690.35,297.12,688.5,297.12,688.5Z" transform="translate(-248 -688)"/></svg>
                     </span>
 
-                    <button type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
+                    <button name="send" type="submit" class="btn" ><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.99 66"><defs><style>.cls-btna-1{fill:#3bb6f8;fill-rule:evenodd;}.cls-btn-1{fill:#e81f49;}.cls-btn-1,.cls-btn-2{fill-rule:evenodd;}.cls-btn-2{fill:#ff2a56;}</style></defs><path class="cls-btn-1" d="M105,154s-52.58-.08-48.76,34.75C59.11,215.25,93.26,218,113.77,215c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58S349.54,199.86,350,188.3c-.23-16.27-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,156.23,105,154,105,154Z" transform="translate(-56 -150)"/><path class="cls-btn-2" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/><path class="cls-btna-1" d="M105,150s-52.58-.08-48.76,34.76C59.11,211.23,93.26,214,113.77,211c14.64-2.15,63.09-8.74,96.65-5.22,34.05,3.57,92.37,5.32,109.93.58s29.18-10.53,29.64-22.09c-.23-16.28-9.39-34.94-60-32.31s-48.54,4.15-110.94,1.43C152,152.21,105,150,105,150Z" transform="translate(-56 -150)"/></svg><span>Получить консультацию</span></button>
 
 
                     <div class="clear"></div>

@@ -1,9 +1,6 @@
-if (localStorage.name && localStorage.email && localStorage.phone)  {
-  // запись сохраненных данных сразу в поля, если надо
-  $('input[name="name"]').val(localStorage.name);
-  $('input[type="email"]').val(localStorage.email);
-  $('input[type="tel"]').val(localStorage.phone);
-}
+if (localStorage.email != "undefined"){$('input[type="email"]').val(localStorage.email);}
+if (localStorage.name != "undefined"){$('input[name="First Name"]').val(localStorage.name);}
+if (localStorage.phone != "undefined"){$('input[type="tel"]').val(localStorage.phone);}
 
 $(function() {
   $("[name=send]").click(function (e) {
@@ -15,12 +12,17 @@ $(function() {
 
    var error;
    var ref = btn.closest('form').find('[required]');
-   // var loc = ymaps.geolocation.city+', '+ymaps.geolocation.region+', '+ymaps.geolocation.country;
-   // $('[name=city]').val(loc);
 
-   $.get("http://ipinfo.io", function(response) {
-    $('[name=city]').val(response.city + ', ' + response.country)
-   }, "jsonp");
+    var leadCity;
+    $.get("http://ipinfo.io", function(response) {
+      leadCity = response.city + ', ' + response.country;
+    }, "jsonp");
+
+    $('[name=city]').val(leadCity);
+
+
+   var lead_name = $('[name="First Name"]').val();
+   $('[name=name]').val(lead_name);
 
    var msg = btn.closest('form').find('input, textarea, select');
    var short_msg = btn.closest('form').find('[name=project_name], [name=admin_email], [name=form_subject], [name=city], [name=page_url], [name=user_agent], [type="text"], [type="email"], [type="tel"]');
@@ -33,9 +35,13 @@ $(function() {
    var goal = btn.closest('form').find('[name=goal]').val();
    var alertImage = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286.1 286.1"><path d="M143 0C64 0 0 64 0 143c0 79 64 143 143 143 79 0 143-64 143-143C286.1 64 222 0 143 0zM143 259.2c-64.2 0-116.2-52-116.2-116.2S78.8 26.8 143 26.8s116.2 52 116.2 116.2S207.2 259.2 143 259.2zM143 62.7c-10.2 0-18 5.3-18 14v79.2c0 8.6 7.8 14 18 14 10 0 18-5.6 18-14V76.7C161 68.3 153 62.7 143 62.7zM143 187.7c-9.8 0-17.9 8-17.9 17.9 0 9.8 8 17.8 17.9 17.8s17.8-8 17.8-17.8C160.9 195.7 152.9 187.7 143 187.7z" fill="#E2574C"/></svg>';
 
-   localStorage.name = form.find('input[name="name"]').val();
-   localStorage.email = form.find('input[type="email"]').val();
-   localStorage.phone = form.find('input[type="tel"]').val();
+   var name_tl = localStorage.name = form.find('input[name="First Name"]').val();
+   var email_tl = localStorage.email = form.find('input[type="email"]').val();
+   var phone_tl = localStorage.phone = form.find('input[type="tel"]').val();
+
+   if (!name_tl) { name_tl = 'Форма без имени'};
+   if (!email_tl) { email_tl = 'Форма без мейла'};
+   if (!phone_tl) { phone_tl = 'Форма без телефона'}
 
 
    $(ref).each(function() {
@@ -72,19 +78,12 @@ $(function() {
     });
 
       // Отправка в  Zoho
-     //  var form_data = $(this).closest('form').serializeArray();
-     //  var form_data_zoho = {};
-
-     //  $.each(form_data, function(i, v) {
-     //    form_data_zoho[v.name] = v.value;
-     //  });
-
-     //  console.log(form_data_zoho);
-     //  $.ajax({
-     //   type: 'POST',
-     //   url: '/registration/application.php',
-     //   data: {data_zoho: form_data_zoho, utm_source: form_data_zoho['utm_source'], google_id: form_data_zoho['google_id'], utm_campaign: form_data_zoho['utm_campaign'], utm_content: form_data_zoho['utm_content'], utm_medium: form_data_zoho['utm_medium'], utm_term: form_data_zoho['utm_term']},
-     // });
+      var form_data = $(this).closest('form').serializeArray();
+      $.ajax({
+       type: 'POST',
+       url: 'https://crm.zoho.com/crm/WebToLeadForm',
+       data: form_data
+     });
 
      // Отправка в Google sheets
     //  $.ajax({
@@ -110,6 +109,11 @@ $(function() {
     //     console.log("Erorr")
     //   }
     // });
+    // Отправка в Telegram
+    $.ajax({
+      type: 'POST',
+      url: 'https://api.telegram.org/bot387788931:AAGcrJMBBctOe7_J_h0zYZw6bbq-jDe1qBM/sendMessage?chat_id=-236556585&text=У вас новый лид c Oyka LP: ' + name_tl + ' | ' + email_tl + ' | ' + phone_tl,
+    });
 
       // Отправка в базу данных
       $.ajax({

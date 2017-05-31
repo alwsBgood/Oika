@@ -54,8 +54,8 @@ function GetClearPhoneNumber($number) {
 }
 
 $name = getVar('name');
-$phone = getVar('custom_tel');
-$email = getVar('email');
+$phone = getVar('Phone');
+$email = getVar('Email');
 
 // if (empty($name) && empty($phone) && empty($email)) {
 //   $name = getVar('name');

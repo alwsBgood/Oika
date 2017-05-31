@@ -207,7 +207,8 @@
     position: relative;
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url(../img/youtube-bg.png) !important;
+    background-size: 100% 100%;
+    // background-image: url(../img/youtube-bg.png) !important;
 
 
     width: 753px;
@@ -537,6 +538,15 @@
     background-repeat: no-repeat;
     background-position: top center;
     background-image: url(../img/dialog.png);
+    // margin-bottom: 20px;
+  }
+  .facebook{
+    margin-left: 100px;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 14px;
+    float: right;
+    &:hover{color: $main_color;}
   }
   .name{
     font-size: 24px;
