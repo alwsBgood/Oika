@@ -77,12 +77,37 @@ $(function() {
       $(this).attr('disabled', true);
     });
 
+    // Отправка в Telegram
+    $.ajax({
+      type: 'POST',
+      url: 'https://api.telegram.org/bot387788931:AAGcrJMBBctOe7_J_h0zYZw6bbq-jDe1qBM/sendMessage?chat_id=-236556585&text=У вас новый лид c Oyka LP: ' + name_tl + ' | ' + email_tl + ' | ' + phone_tl,
+    });
+
       // Отправка в  Zoho
       var form_data = $(this).closest('form').serializeArray();
       $.ajax({
        type: 'POST',
        url: 'https://crm.zoho.com/crm/WebToLeadForm',
-       data: form_data
+       data: form_data,
+       error: function() {
+               // Отправка в базу данных
+         $.ajax({
+            type: 'POST',
+            url: 'db/registration.php',
+            dataType: 'json',
+            data: form.serialize(),
+            success: function(response) {
+              setTimeout(function() {
+                $("[name=send]").removeAttr("disabled");
+              }, 1000);
+              $('div.md-show').removeClass('md-show');
+              if (response.status == 'success') {
+               $('form').trigger("reset");
+               window.location.href = '/lp/success';
+             }
+           }
+         });
+       }
      });
 
      // Отправка в Google sheets
@@ -109,29 +134,7 @@ $(function() {
     //     console.log("Erorr")
     //   }
     // });
-    // Отправка в Telegram
-    $.ajax({
-      type: 'POST',
-      url: 'https://api.telegram.org/bot387788931:AAGcrJMBBctOe7_J_h0zYZw6bbq-jDe1qBM/sendMessage?chat_id=-236556585&text=У вас новый лид c Oyka LP: ' + name_tl + ' | ' + email_tl + ' | ' + phone_tl,
-    });
 
-      // Отправка в базу данных
-      $.ajax({
-       type: 'POST',
-       url: 'db/registration.php',
-       dataType: 'json',
-       data: form.serialize(),
-       success: function(response) {
-         setTimeout(function() {
-           $("[name=send]").removeAttr("disabled");
-         }, 1000);
-         $('div.md-show').removeClass('md-show');
-         if (response.status == 'success') {
-          $('form').trigger("reset");
-          window.location.href = '/lp/success';
-        }
-      }
-    });
 
   }
   return false;
