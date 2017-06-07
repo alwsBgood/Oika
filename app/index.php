@@ -7,6 +7,13 @@
 <html class="no-js" lang="ru">
 
 <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WF8KP9');</script>
+<!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
 
@@ -62,6 +69,10 @@
 
 </head>
 <body data-img="img/land.jpg">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WF8KP9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div class="main_wrap">
 
 <div class="bar-long"></div>
@@ -133,7 +144,7 @@
                 <!-- <img src="img/bl1_blue_baloon.png" alt="Шарик" class="sec_01-img"> -->
                 <div class="counter">
                     <p class="counter_title text--title">Праздников <br> уже проведено</p>
-                    <p class="counter_cur text--title">1 275</p>
+                    <p class="counter_cur text--title">2 973</p>
                 </div>
             </div>
         </div>
@@ -661,7 +672,7 @@
 
                 <div class="item">
                     <p class="text--title title_header">Праздников <br> уже проведено</p>
-                    <div class="counter"><span class="text--title counter_current">1234</span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.96 127"><defs><style>.cls-coun-1{fill:#ff2a56;fill-rule:evenodd;}</style></defs><path class="cls-coun-1" d="M208.42,126.32c33.28,1.95,63.43,11.66,83.22,24.58,18.45,13.55,31.36,28.92,33.63,45.86,4.7,34-71.19,56.62-132.12,55.74-110.38,0-139.58-27-156.85-56.16-6.86-15.43-8.15-41.58,29.4-56.09C101.84,126.29,176.81,124,208.42,126.32Z" transform="translate(-32.51 -125.53)"/></svg></div>
+                    <div class="counter"><span class="text--title counter_current">2 973</span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292.96 127"><defs><style>.cls-coun-1{fill:#ff2a56;fill-rule:evenodd;}</style></defs><path class="cls-coun-1" d="M208.42,126.32c33.28,1.95,63.43,11.66,83.22,24.58,18.45,13.55,31.36,28.92,33.63,45.86,4.7,34-71.19,56.62-132.12,55.74-110.38,0-139.58-27-156.85-56.16-6.86-15.43-8.15-41.58,29.4-56.09C101.84,126.29,176.81,124,208.42,126.32Z" transform="translate(-32.51 -125.53)"/></svg></div>
                     <div class="clear"></div>
                 </div>
             </div>
